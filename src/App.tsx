@@ -32,7 +32,7 @@ function App() {
         {list.slice(0, 10).map(item => {
           return (
             <li
-              className="mb-2 border border-dark-300 rounded-md border-solid text-center text-red w-30"
+              className="mb-2 border border-dark-300 rounded-md border-solid text-red text-center w-30"
               key={item.tvId}
             >
               {item.name}
