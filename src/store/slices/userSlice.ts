@@ -13,7 +13,10 @@ export const userSlice = createSlice({
   name: 'user',
   initialState,
   reducers: {
-    increment: (state: UsersState, action: PayloadAction<number | undefined>) => {
+    increment: (
+      state: UsersState,
+      action: PayloadAction<number | undefined>,
+    ) => {
       const { payload = 1 } = action
       state.count += payload ?? 1
     },

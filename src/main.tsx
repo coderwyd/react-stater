@@ -5,10 +5,10 @@ import App from './App'
 
 import store from './store'
 
-ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
+ReactDOM.createRoot(document.querySelector('#root') as HTMLElement).render(
   <Provider store={store}>
     <BrowserRouter>
-      <App />
+      <App></App>
     </BrowserRouter>
   </Provider>,
 )
