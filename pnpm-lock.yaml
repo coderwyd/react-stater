@@ -47,14 +47,14 @@ devDependencies:
     specifier: ^2.1.4
     version: 2.1.4(@unocss/eslint-plugin@0.58.5)(eslint-plugin-react-hooks@4.6.0)(eslint-plugin-react-refresh@0.4.5)(eslint-plugin-react@7.33.2)(eslint@8.56.0)(typescript@5.3.3)
   '@types/node':
-    specifier: ^20.11.5
-    version: 20.11.5
+    specifier: ^20.11.16
+    version: 20.11.16
   '@types/react':
     specifier: ^18.2.55
     version: 18.2.55
   '@types/react-dom':
-    specifier: ^18.2.18
-    version: 18.2.18
+    specifier: ^18.2.19
+    version: 18.2.19
   '@unocss/eslint-plugin':
     specifier: ^0.58.5
     version: 0.58.5(eslint@8.56.0)(typescript@5.3.3)
@@ -102,7 +102,7 @@ devDependencies:
     version: 0.58.3(postcss@8.4.33)(vite@5.0.12)
   vite:
     specifier: ^5.0.12
-    version: 5.0.12(@types/node@20.11.5)(sass@1.70.0)
+    version: 5.0.12(@types/node@20.11.16)(sass@1.70.0)
   vite-plugin-html:
     specifier: ^3.2.2
     version: 3.2.2(vite@5.0.12)
@@ -1449,8 +1449,8 @@ packages:
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
     dev: true
 
-  /@types/node@20.11.5:
-    resolution: {integrity: sha512-g557vgQjUUfN76MZAN/dt1z3dzcUsimuysco0KeluHgrPdJXkP/XdAURgyO2W9fZWHRtRBiVKzKn8vyOAwlG+w==}
+  /@types/node@20.11.16:
+    resolution: {integrity: sha512-gKb0enTmRCzXSSUJDq6/sPcqrfCv2mkkG6Jt/clpn5eiCbKTY+SgZUxo+p8ZKMof5dCp9vHQUAB7wOUTod22wQ==}
     dependencies:
       undici-types: 5.26.5
     dev: true
@@ -1462,8 +1462,8 @@ packages:
   /@types/prop-types@15.7.5:
     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
 
-  /@types/react-dom@18.2.18:
-    resolution: {integrity: sha512-TJxDm6OfAX2KJWJdMEVTwWke5Sc/E/RlnPGvGfS0W7+6ocy2xhDVQVh/KvC2Uf7kACs+gDytdusDSdWfWkaNzw==}
+  /@types/react-dom@18.2.19:
+    resolution: {integrity: sha512-aZvQL6uUbIJpjZk4U8JZGbau9KDeAwMfmhyWorxgBkqDIEf6ROjRozcmPIicqsUwPUjbkDfHKgGee1Lq65APcA==}
     dependencies:
       '@types/react': 18.2.55
     dev: true
@@ -1485,7 +1485,7 @@ packages:
   /@types/svgo@2.6.4:
     resolution: {integrity: sha512-l4cmyPEckf8moNYHdJ+4wkHvFxjyW6ulm9l4YGaOxeyBWPhBOT0gvni1InpFPdzx1dKf/2s62qGITwxNWnPQng==}
     dependencies:
-      '@types/node': 20.11.5
+      '@types/node': 20.11.16
     dev: true
 
   /@types/use-sync-external-store@0.0.3:
@@ -1639,7 +1639,7 @@ packages:
       '@unocss/core': 0.58.3
       '@unocss/reset': 0.58.3
       '@unocss/vite': 0.58.3(vite@5.0.12)
-      vite: 5.0.12(@types/node@20.11.5)(sass@1.70.0)
+      vite: 5.0.12(@types/node@20.11.16)(sass@1.70.0)
     transitivePeerDependencies:
       - rollup
     dev: true
@@ -1864,7 +1864,7 @@ packages:
       chokidar: 3.5.3
       fast-glob: 3.3.2
       magic-string: 0.30.5
-      vite: 5.0.12(@types/node@20.11.5)(sass@1.70.0)
+      vite: 5.0.12(@types/node@20.11.16)(sass@1.70.0)
     transitivePeerDependencies:
       - rollup
     dev: true
@@ -1875,7 +1875,7 @@ packages:
       vite: ^4 || ^5
     dependencies:
       '@swc/core': 1.3.99
-      vite: 5.0.12(@types/node@20.11.5)(sass@1.70.0)
+      vite: 5.0.12(@types/node@20.11.16)(sass@1.70.0)
     transitivePeerDependencies:
       - '@swc/helpers'
     dev: true
@@ -6835,7 +6835,7 @@ packages:
       '@unocss/transformer-directives': 0.58.3
       '@unocss/transformer-variant-group': 0.58.3
       '@unocss/vite': 0.58.3(vite@5.0.12)
-      vite: 5.0.12(@types/node@20.11.5)(sass@1.70.0)
+      vite: 5.0.12(@types/node@20.11.16)(sass@1.70.0)
     transitivePeerDependencies:
       - postcss
       - rollup
@@ -6918,7 +6918,7 @@ packages:
       html-minifier-terser: 6.1.0
       node-html-parser: 5.4.2
       pathe: 0.2.0
-      vite: 5.0.12(@types/node@20.11.5)(sass@1.70.0)
+      vite: 5.0.12(@types/node@20.11.16)(sass@1.70.0)
     dev: true
 
   /vite-plugin-svg-icons@2.0.1(vite@5.0.12):
@@ -6934,7 +6934,7 @@ packages:
       pathe: 0.2.0
       svg-baker: 1.7.0
       svgo: 2.8.0
-      vite: 5.0.12(@types/node@20.11.5)(sass@1.70.0)
+      vite: 5.0.12(@types/node@20.11.16)(sass@1.70.0)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -6950,13 +6950,13 @@ packages:
       debug: 4.3.4
       globrex: 0.1.2
       tsconfck: 3.0.1(typescript@5.3.3)
-      vite: 5.0.12(@types/node@20.11.5)(sass@1.70.0)
+      vite: 5.0.12(@types/node@20.11.16)(sass@1.70.0)
     transitivePeerDependencies:
       - supports-color
       - typescript
     dev: true
 
-  /vite@5.0.12(@types/node@20.11.5)(sass@1.70.0):
+  /vite@5.0.12(@types/node@20.11.16)(sass@1.70.0):
     resolution: {integrity: sha512-4hsnEkG3q0N4Tzf1+t6NdN9dg/L3BM+q8SWgbSPnJvrgH2kgdyzfVJwbR1ic69/4uMJJ/3dqDZZE5/WwqW8U1w==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -6984,7 +6984,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 20.11.5
+      '@types/node': 20.11.16
       esbuild: 0.19.8
       postcss: 8.4.33
       rollup: 4.6.0
