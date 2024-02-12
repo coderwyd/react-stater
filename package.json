@@ -50,7 +50,7 @@
     "sass": "^1.70.0",
     "simple-git-hooks": "^2.9.0",
     "typescript": "^5.3.3",
-    "unocss": "^0.58.3",
+    "unocss": "^0.58.5",
     "vite": "^5.0.12",
     "vite-plugin-html": "^3.2.2",
     "vite-plugin-svg-icons": "^2.0.1",
