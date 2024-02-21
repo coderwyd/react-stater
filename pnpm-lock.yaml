@@ -89,8 +89,8 @@ devDependencies:
     specifier: ^5.12.0
     version: 5.12.0
   sass:
-    specifier: ^1.70.0
-    version: 1.70.0
+    specifier: ^1.71.1
+    version: 1.71.1
   simple-git-hooks:
     specifier: ^2.9.0
     version: 2.9.0
@@ -102,7 +102,7 @@ devDependencies:
     version: 0.58.5(postcss@8.4.35)(vite@5.0.12)
   vite:
     specifier: ^5.0.12
-    version: 5.0.12(@types/node@20.11.19)(sass@1.70.0)
+    version: 5.0.12(@types/node@20.11.19)(sass@1.71.1)
   vite-plugin-html:
     specifier: ^3.2.2
     version: 3.2.2(vite@5.0.12)
@@ -1623,7 +1623,7 @@ packages:
       '@unocss/core': 0.58.5
       '@unocss/reset': 0.58.5
       '@unocss/vite': 0.58.5(vite@5.0.12)
-      vite: 5.0.12(@types/node@20.11.19)(sass@1.70.0)
+      vite: 5.0.12(@types/node@20.11.19)(sass@1.71.1)
     transitivePeerDependencies:
       - rollup
     dev: true
@@ -1836,7 +1836,7 @@ packages:
       chokidar: 3.5.3
       fast-glob: 3.3.2
       magic-string: 0.30.6
-      vite: 5.0.12(@types/node@20.11.19)(sass@1.70.0)
+      vite: 5.0.12(@types/node@20.11.19)(sass@1.71.1)
     transitivePeerDependencies:
       - rollup
     dev: true
@@ -1847,7 +1847,7 @@ packages:
       vite: ^4 || ^5
     dependencies:
       '@swc/core': 1.4.1
-      vite: 5.0.12(@types/node@20.11.19)(sass@1.70.0)
+      vite: 5.0.12(@types/node@20.11.19)(sass@1.71.1)
     transitivePeerDependencies:
       - '@swc/helpers'
     dev: true
@@ -6104,8 +6104,8 @@ packages:
       ret: 0.1.15
     dev: true
 
-  /sass@1.70.0:
-    resolution: {integrity: sha512-uUxNQ3zAHeAx5nRFskBnrWzDUJrrvpCPD5FNAoRvTi0WwremlheES3tg+56PaVtCs5QDRX5CBLxxKMDJMEa1WQ==}
+  /sass@1.71.1:
+    resolution: {integrity: sha512-wovtnV2PxzteLlfNzbgm1tFXPLoZILYAMJtvoXXkD7/+1uP41eKkIt1ypWq5/q2uT94qHjXehEYfmjKOvjL9sg==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
@@ -6801,7 +6801,7 @@ packages:
       '@unocss/transformer-directives': 0.58.5
       '@unocss/transformer-variant-group': 0.58.5
       '@unocss/vite': 0.58.5(vite@5.0.12)
-      vite: 5.0.12(@types/node@20.11.19)(sass@1.70.0)
+      vite: 5.0.12(@types/node@20.11.19)(sass@1.71.1)
     transitivePeerDependencies:
       - postcss
       - rollup
@@ -6884,7 +6884,7 @@ packages:
       html-minifier-terser: 6.1.0
       node-html-parser: 5.4.2
       pathe: 0.2.0
-      vite: 5.0.12(@types/node@20.11.19)(sass@1.70.0)
+      vite: 5.0.12(@types/node@20.11.19)(sass@1.71.1)
     dev: true
 
   /vite-plugin-svg-icons@2.0.1(vite@5.0.12):
@@ -6900,7 +6900,7 @@ packages:
       pathe: 0.2.0
       svg-baker: 1.7.0
       svgo: 2.8.0
-      vite: 5.0.12(@types/node@20.11.19)(sass@1.70.0)
+      vite: 5.0.12(@types/node@20.11.19)(sass@1.71.1)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -6916,13 +6916,13 @@ packages:
       debug: 4.3.4
       globrex: 0.1.2
       tsconfck: 3.0.1(typescript@5.3.3)
-      vite: 5.0.12(@types/node@20.11.19)(sass@1.70.0)
+      vite: 5.0.12(@types/node@20.11.19)(sass@1.71.1)
     transitivePeerDependencies:
       - supports-color
       - typescript
     dev: true
 
-  /vite@5.0.12(@types/node@20.11.19)(sass@1.70.0):
+  /vite@5.0.12(@types/node@20.11.19)(sass@1.71.1):
     resolution: {integrity: sha512-4hsnEkG3q0N4Tzf1+t6NdN9dg/L3BM+q8SWgbSPnJvrgH2kgdyzfVJwbR1ic69/4uMJJ/3dqDZZE5/WwqW8U1w==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -6954,7 +6954,7 @@ packages:
       esbuild: 0.19.8
       postcss: 8.4.35
       rollup: 4.6.0
-      sass: 1.70.0
+      sass: 1.71.1
     optionalDependencies:
       fsevents: 2.3.3
     dev: true
