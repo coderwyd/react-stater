@@ -24,8 +24,8 @@ dependencies:
     specifier: ^5.5.0
     version: 5.5.0
   immer:
-    specifier: ^10.0.3
-    version: 10.0.3
+    specifier: ^10.0.4
+    version: 10.0.4
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -1146,7 +1146,7 @@ packages:
       react-redux:
         optional: true
     dependencies:
-      immer: 10.0.3
+      immer: 10.0.4
       react: 18.2.0
       react-redux: 9.1.0(@types/react@18.2.64)(react@18.2.0)(redux@5.0.1)
       redux: 5.0.1
@@ -4172,8 +4172,8 @@ packages:
     hasBin: true
     dev: true
 
-  /immer@10.0.3:
-    resolution: {integrity: sha512-pwupu3eWfouuaowscykeckFmVTpqbzW+rXFCX8rQLkZzM9ftBmU/++Ra+o+L27mz03zJTlyV4UUr+fdKNffo4A==}
+  /immer@10.0.4:
+    resolution: {integrity: sha512-cuBuGK40P/sk5IzWa9QPUaAdvPHjkk1c+xYsd9oZw+YQQEV+10G0P5uMpGctZZKnyQ+ibRO08bD25nWLmYi2pw==}
     dev: false
 
   /immutable@4.2.2:
