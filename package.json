@@ -33,7 +33,7 @@
   },
   "devDependencies": {
     "@coderwyd/eslint-config": "^2.1.4",
-    "@types/node": "^20.11.27",
+    "@types/node": "^20.11.28",
     "@types/react": "^18.2.66",
     "@types/react-dom": "^18.2.22",
     "@unocss/eslint-plugin": "^0.58.5",
