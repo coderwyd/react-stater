@@ -47,8 +47,8 @@ devDependencies:
     specifier: ^2.1.8
     version: 2.2.2(@unocss/eslint-plugin@0.58.5)(eslint-plugin-react-hooks@4.6.0)(eslint-plugin-react-refresh@0.4.6)(eslint-plugin-react@7.34.0)(eslint@8.57.0)(tailwindcss@3.4.1)(typescript@5.4.2)
   '@types/node':
-    specifier: ^20.11.28
-    version: 20.11.28
+    specifier: ^20.11.30
+    version: 20.11.30
   '@types/react':
     specifier: ^18.2.67
     version: 18.2.67
@@ -102,7 +102,7 @@ devDependencies:
     version: 0.58.5(postcss@8.4.35)(vite@5.1.6)
   vite:
     specifier: ^5.1.6
-    version: 5.1.6(@types/node@20.11.28)(sass@1.71.1)
+    version: 5.1.6(@types/node@20.11.30)(sass@1.71.1)
   vite-plugin-html:
     specifier: ^3.2.2
     version: 3.2.2(vite@5.1.6)
@@ -1443,8 +1443,8 @@ packages:
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
     dev: true
 
-  /@types/node@20.11.28:
-    resolution: {integrity: sha512-M/GPWVS2wLkSkNHVeLkrF2fD5Lx5UC4PxA0uZcKc6QqbIQUJyW1jVjueJYi1z8n0I5PxYrtpnPnWglE+y9A0KA==}
+  /@types/node@20.11.30:
+    resolution: {integrity: sha512-dHM6ZxwlmuZaRmUPfv1p+KrdD1Dci04FbdEm/9wEMouFqxYoFl5aMkt0VMAUtYRQDyYvD41WJLukhq/ha3YuTw==}
     dependencies:
       undici-types: 5.26.5
     dev: true
@@ -1479,7 +1479,7 @@ packages:
   /@types/svgo@2.6.4:
     resolution: {integrity: sha512-l4cmyPEckf8moNYHdJ+4wkHvFxjyW6ulm9l4YGaOxeyBWPhBOT0gvni1InpFPdzx1dKf/2s62qGITwxNWnPQng==}
     dependencies:
-      '@types/node': 20.11.28
+      '@types/node': 20.11.30
     dev: true
 
   /@types/use-sync-external-store@0.0.3:
@@ -1695,7 +1695,7 @@ packages:
       '@unocss/core': 0.58.5
       '@unocss/reset': 0.58.5
       '@unocss/vite': 0.58.5(vite@5.1.6)
-      vite: 5.1.6(@types/node@20.11.28)(sass@1.71.1)
+      vite: 5.1.6(@types/node@20.11.30)(sass@1.71.1)
     transitivePeerDependencies:
       - rollup
     dev: true
@@ -1908,7 +1908,7 @@ packages:
       chokidar: 3.5.3
       fast-glob: 3.3.2
       magic-string: 0.30.6
-      vite: 5.1.6(@types/node@20.11.28)(sass@1.71.1)
+      vite: 5.1.6(@types/node@20.11.30)(sass@1.71.1)
     transitivePeerDependencies:
       - rollup
     dev: true
@@ -1919,7 +1919,7 @@ packages:
       vite: ^4 || ^5
     dependencies:
       '@swc/core': 1.4.1
-      vite: 5.1.6(@types/node@20.11.28)(sass@1.71.1)
+      vite: 5.1.6(@types/node@20.11.30)(sass@1.71.1)
     transitivePeerDependencies:
       - '@swc/helpers'
     dev: true
@@ -7410,7 +7410,7 @@ packages:
       '@unocss/transformer-directives': 0.58.5
       '@unocss/transformer-variant-group': 0.58.5
       '@unocss/vite': 0.58.5(vite@5.1.6)
-      vite: 5.1.6(@types/node@20.11.28)(sass@1.71.1)
+      vite: 5.1.6(@types/node@20.11.30)(sass@1.71.1)
     transitivePeerDependencies:
       - postcss
       - rollup
@@ -7493,7 +7493,7 @@ packages:
       html-minifier-terser: 6.1.0
       node-html-parser: 5.4.2
       pathe: 0.2.0
-      vite: 5.1.6(@types/node@20.11.28)(sass@1.71.1)
+      vite: 5.1.6(@types/node@20.11.30)(sass@1.71.1)
     dev: true
 
   /vite-plugin-svg-icons@2.0.1(vite@5.1.6):
@@ -7509,7 +7509,7 @@ packages:
       pathe: 0.2.0
       svg-baker: 1.7.0
       svgo: 2.8.0
-      vite: 5.1.6(@types/node@20.11.28)(sass@1.71.1)
+      vite: 5.1.6(@types/node@20.11.30)(sass@1.71.1)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -7525,13 +7525,13 @@ packages:
       debug: 4.3.4
       globrex: 0.1.2
       tsconfck: 3.0.3(typescript@5.4.2)
-      vite: 5.1.6(@types/node@20.11.28)(sass@1.71.1)
+      vite: 5.1.6(@types/node@20.11.30)(sass@1.71.1)
     transitivePeerDependencies:
       - supports-color
       - typescript
     dev: true
 
-  /vite@5.1.6(@types/node@20.11.28)(sass@1.71.1):
+  /vite@5.1.6(@types/node@20.11.30)(sass@1.71.1):
     resolution: {integrity: sha512-yYIAZs9nVfRJ/AiOLCA91zzhjsHUgMjB+EigzFb6W2XTLO8JixBCKCjvhKZaye+NKYHCrkv3Oh50dH9EdLU2RA==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -7559,7 +7559,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 20.11.28
+      '@types/node': 20.11.30
       esbuild: 0.19.8
       postcss: 8.4.35
       rollup: 4.6.0
