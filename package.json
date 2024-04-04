@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.3",
-    "ahooks": "^3.7.10",
+    "ahooks": "^3.7.11",
     "antd": "^5.16.0",
     "axios": "^1.6.8",
     "dayjs": "^1.11.10",
