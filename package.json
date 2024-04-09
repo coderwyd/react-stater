@@ -33,9 +33,9 @@
   },
   "devDependencies": {
     "@coderwyd/eslint-config": "^2.3.0",
-    "@types/node": "^20.12.2",
+    "@types/node": "^20.12.6",
     "@types/react": "^18.2.74",
-    "@types/react-dom": "^18.2.23",
+    "@types/react-dom": "^18.2.24",
     "@unocss/eslint-plugin": "^0.58.9",
     "@vitejs/plugin-react-swc": "^3.6.0",
     "autoprefixer": "^10.4.19",
