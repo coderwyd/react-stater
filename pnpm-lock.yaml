@@ -65,7 +65,7 @@ importers:
         version: 0.60.3(eslint@9.3.0)(typescript@5.4.5)
       '@vitejs/plugin-react-swc':
         specifier: ^3.7.0
-        version: 3.7.0(vite@5.2.12(@types/node@20.12.13)(sass@1.77.2)(terser@5.16.8))
+        version: 3.7.0(vite@5.2.12(@types/node@20.12.13)(sass@1.77.4)(terser@5.16.8))
       autoprefixer:
         specifier: ^10.4.19
         version: 10.4.19(postcss@8.4.38)
@@ -91,8 +91,8 @@ importers:
         specifier: ^5.12.0
         version: 5.12.0(rollup@4.13.1)
       sass:
-        specifier: ^1.77.2
-        version: 1.77.2
+        specifier: ^1.77.4
+        version: 1.77.4
       simple-git-hooks:
         specifier: ^2.11.1
         version: 2.11.1
@@ -101,19 +101,19 @@ importers:
         version: 5.4.5
       unocss:
         specifier: ^0.60.3
-        version: 0.60.3(postcss@8.4.38)(rollup@4.13.1)(vite@5.2.12(@types/node@20.12.13)(sass@1.77.2)(terser@5.16.8))
+        version: 0.60.3(postcss@8.4.38)(rollup@4.13.1)(vite@5.2.12(@types/node@20.12.13)(sass@1.77.4)(terser@5.16.8))
       vite:
         specifier: ^5.2.12
-        version: 5.2.12(@types/node@20.12.13)(sass@1.77.2)(terser@5.16.8)
+        version: 5.2.12(@types/node@20.12.13)(sass@1.77.4)(terser@5.16.8)
       vite-plugin-html:
         specifier: ^3.2.2
-        version: 3.2.2(vite@5.2.12(@types/node@20.12.13)(sass@1.77.2)(terser@5.16.8))
+        version: 3.2.2(vite@5.2.12(@types/node@20.12.13)(sass@1.77.4)(terser@5.16.8))
       vite-plugin-svg-icons:
         specifier: ^2.0.1
-        version: 2.0.1(vite@5.2.12(@types/node@20.12.13)(sass@1.77.2)(terser@5.16.8))
+        version: 2.0.1(vite@5.2.12(@types/node@20.12.13)(sass@1.77.4)(terser@5.16.8))
       vite-tsconfig-paths:
         specifier: ^4.3.2
-        version: 4.3.2(typescript@5.4.5)(vite@5.2.12(@types/node@20.12.13)(sass@1.77.2)(terser@5.16.8))
+        version: 4.3.2(typescript@5.4.5)(vite@5.2.12(@types/node@20.12.13)(sass@1.77.4)(terser@5.16.8))
 
 packages:
 
@@ -3181,8 +3181,8 @@ packages:
   safe-regex@1.1.0:
     resolution: {integrity: sha512-aJXcif4xnaNUzvUuC5gcb46oTS7zvg4jpMTnuqtrEPlR3vFr4pxtdTwaF1Qs3Enjn9HK+ZlwQui+a7z0SywIzg==}
 
-  sass@1.77.2:
-    resolution: {integrity: sha512-eb4GZt1C3avsX3heBNlrc7I09nyT00IUuo4eFhAbeXWU2fvA7oXI53SxODVAA+zgZCk9aunAZgO+losjR3fAwA==}
+  sass@1.77.4:
+    resolution: {integrity: sha512-vcF3Ckow6g939GMA4PeU7b2K/9FALXk2KF9J87txdHzXbUF9XRQRwSxcAs/fGaTnJeBFd7UoV22j3lzMLdM0Pw==}
     engines: {node: '>=14.0.0'}
     hasBin: true
 
@@ -4656,13 +4656,13 @@ snapshots:
       '@typescript-eslint/types': 7.9.0
       eslint-visitor-keys: 3.4.3
 
-  '@unocss/astro@0.60.3(rollup@4.13.1)(vite@5.2.12(@types/node@20.12.13)(sass@1.77.2)(terser@5.16.8))':
+  '@unocss/astro@0.60.3(rollup@4.13.1)(vite@5.2.12(@types/node@20.12.13)(sass@1.77.4)(terser@5.16.8))':
     dependencies:
       '@unocss/core': 0.60.3
       '@unocss/reset': 0.60.3
-      '@unocss/vite': 0.60.3(rollup@4.13.1)(vite@5.2.12(@types/node@20.12.13)(sass@1.77.2)(terser@5.16.8))
+      '@unocss/vite': 0.60.3(rollup@4.13.1)(vite@5.2.12(@types/node@20.12.13)(sass@1.77.4)(terser@5.16.8))
     optionalDependencies:
-      vite: 5.2.12(@types/node@20.12.13)(sass@1.77.2)(terser@5.16.8)
+      vite: 5.2.12(@types/node@20.12.13)(sass@1.77.4)(terser@5.16.8)
     transitivePeerDependencies:
       - rollup
 
@@ -4805,7 +4805,7 @@ snapshots:
     dependencies:
       '@unocss/core': 0.60.3
 
-  '@unocss/vite@0.60.3(rollup@4.13.1)(vite@5.2.12(@types/node@20.12.13)(sass@1.77.2)(terser@5.16.8))':
+  '@unocss/vite@0.60.3(rollup@4.13.1)(vite@5.2.12(@types/node@20.12.13)(sass@1.77.4)(terser@5.16.8))':
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@rollup/pluginutils': 5.1.0(rollup@4.13.1)
@@ -4817,14 +4817,14 @@ snapshots:
       chokidar: 3.6.0
       fast-glob: 3.3.2
       magic-string: 0.30.10
-      vite: 5.2.12(@types/node@20.12.13)(sass@1.77.2)(terser@5.16.8)
+      vite: 5.2.12(@types/node@20.12.13)(sass@1.77.4)(terser@5.16.8)
     transitivePeerDependencies:
       - rollup
 
-  '@vitejs/plugin-react-swc@3.7.0(vite@5.2.12(@types/node@20.12.13)(sass@1.77.2)(terser@5.16.8))':
+  '@vitejs/plugin-react-swc@3.7.0(vite@5.2.12(@types/node@20.12.13)(sass@1.77.4)(terser@5.16.8))':
     dependencies:
       '@swc/core': 1.5.7
-      vite: 5.2.12(@types/node@20.12.13)(sass@1.77.2)(terser@5.16.8)
+      vite: 5.2.12(@types/node@20.12.13)(sass@1.77.4)(terser@5.16.8)
     transitivePeerDependencies:
       - '@swc/helpers'
 
@@ -7158,7 +7158,7 @@ snapshots:
     dependencies:
       ret: 0.1.15
 
-  sass@1.77.2:
+  sass@1.77.4:
     dependencies:
       chokidar: 3.6.0
       immutable: 4.2.2
@@ -7536,9 +7536,9 @@ snapshots:
 
   universalify@2.0.0: {}
 
-  unocss@0.60.3(postcss@8.4.38)(rollup@4.13.1)(vite@5.2.12(@types/node@20.12.13)(sass@1.77.2)(terser@5.16.8)):
+  unocss@0.60.3(postcss@8.4.38)(rollup@4.13.1)(vite@5.2.12(@types/node@20.12.13)(sass@1.77.4)(terser@5.16.8)):
     dependencies:
-      '@unocss/astro': 0.60.3(rollup@4.13.1)(vite@5.2.12(@types/node@20.12.13)(sass@1.77.2)(terser@5.16.8))
+      '@unocss/astro': 0.60.3(rollup@4.13.1)(vite@5.2.12(@types/node@20.12.13)(sass@1.77.4)(terser@5.16.8))
       '@unocss/cli': 0.60.3(rollup@4.13.1)
       '@unocss/core': 0.60.3
       '@unocss/extractor-arbitrary-variants': 0.60.3
@@ -7557,9 +7557,9 @@ snapshots:
       '@unocss/transformer-compile-class': 0.60.3
       '@unocss/transformer-directives': 0.60.3
       '@unocss/transformer-variant-group': 0.60.3
-      '@unocss/vite': 0.60.3(rollup@4.13.1)(vite@5.2.12(@types/node@20.12.13)(sass@1.77.2)(terser@5.16.8))
+      '@unocss/vite': 0.60.3(rollup@4.13.1)(vite@5.2.12(@types/node@20.12.13)(sass@1.77.4)(terser@5.16.8))
     optionalDependencies:
-      vite: 5.2.12(@types/node@20.12.13)(sass@1.77.2)(terser@5.16.8)
+      vite: 5.2.12(@types/node@20.12.13)(sass@1.77.4)(terser@5.16.8)
     transitivePeerDependencies:
       - postcss
       - rollup
@@ -7599,7 +7599,7 @@ snapshots:
 
   vary@1.1.2: {}
 
-  vite-plugin-html@3.2.2(vite@5.2.12(@types/node@20.12.13)(sass@1.77.2)(terser@5.16.8)):
+  vite-plugin-html@3.2.2(vite@5.2.12(@types/node@20.12.13)(sass@1.77.4)(terser@5.16.8)):
     dependencies:
       '@rollup/pluginutils': 4.2.1
       colorette: 2.0.20
@@ -7613,9 +7613,9 @@ snapshots:
       html-minifier-terser: 6.1.0
       node-html-parser: 5.4.2
       pathe: 0.2.0
-      vite: 5.2.12(@types/node@20.12.13)(sass@1.77.2)(terser@5.16.8)
+      vite: 5.2.12(@types/node@20.12.13)(sass@1.77.4)(terser@5.16.8)
 
-  vite-plugin-svg-icons@2.0.1(vite@5.2.12(@types/node@20.12.13)(sass@1.77.2)(terser@5.16.8)):
+  vite-plugin-svg-icons@2.0.1(vite@5.2.12(@types/node@20.12.13)(sass@1.77.4)(terser@5.16.8)):
     dependencies:
       '@types/svgo': 2.6.4
       cors: 2.8.5
@@ -7625,22 +7625,22 @@ snapshots:
       pathe: 0.2.0
       svg-baker: 1.7.0
       svgo: 2.8.0
-      vite: 5.2.12(@types/node@20.12.13)(sass@1.77.2)(terser@5.16.8)
+      vite: 5.2.12(@types/node@20.12.13)(sass@1.77.4)(terser@5.16.8)
     transitivePeerDependencies:
       - supports-color
 
-  vite-tsconfig-paths@4.3.2(typescript@5.4.5)(vite@5.2.12(@types/node@20.12.13)(sass@1.77.2)(terser@5.16.8)):
+  vite-tsconfig-paths@4.3.2(typescript@5.4.5)(vite@5.2.12(@types/node@20.12.13)(sass@1.77.4)(terser@5.16.8)):
     dependencies:
       debug: 4.3.4
       globrex: 0.1.2
       tsconfck: 3.0.3(typescript@5.4.5)
     optionalDependencies:
-      vite: 5.2.12(@types/node@20.12.13)(sass@1.77.2)(terser@5.16.8)
+      vite: 5.2.12(@types/node@20.12.13)(sass@1.77.4)(terser@5.16.8)
     transitivePeerDependencies:
       - supports-color
       - typescript
 
-  vite@5.2.12(@types/node@20.12.13)(sass@1.77.2)(terser@5.16.8):
+  vite@5.2.12(@types/node@20.12.13)(sass@1.77.4)(terser@5.16.8):
     dependencies:
       esbuild: 0.20.2
       postcss: 8.4.38
@@ -7648,7 +7648,7 @@ snapshots:
     optionalDependencies:
       '@types/node': 20.12.13
       fsevents: 2.3.3
-      sass: 1.77.2
+      sass: 1.77.4
       terser: 5.16.8
 
   vue-eslint-parser@9.4.2(eslint@9.3.0):
