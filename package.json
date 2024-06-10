@@ -2,7 +2,7 @@
   "name": "react-starter",
   "type": "module",
   "version": "0.0.1",
-  "packageManager": "pnpm@9.2.0",
+  "packageManager": "pnpm@9.3.0",
   "author": "Donny Wang <donny526@outlook.com>",
   "scripts": {
     "bootstrap": "pnpm install",
