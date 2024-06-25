@@ -29,7 +29,7 @@ function App() {
         </Button>
       </div>
       <ul className="list-none">
-        {list.slice(0, 10).map(item => {
+        {list.slice(0, 10).map((item) => {
           return (
             <li
               className="mb-2 border border-dark-300 rounded-md border-solid text-red text-center w-30"

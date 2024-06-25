@@ -15,7 +15,7 @@ const postsApi = baseApi.injectEndpoints({
       },
     }),
     // 根据id去查询,第一个参数是返回值的类型，第二个参是传递给后端的数据类型
-    getPostsById: builder.query<{ id: number; name: string }, number>({
+    getPostsById: builder.query<{ id: number, name: string }, number>({
       query: (id: number) => `/posts/${id}`,
     }),
     // 创建帖子
@@ -35,7 +35,7 @@ const postsApi = baseApi.injectEndpoints({
     }),
     // 根据id修改帖子
     modifyPostById: builder.mutation({
-      query: ({ id, data }: { id: number; data: any }) => ({
+      query: ({ id, data }: { id: number, data: any }) => ({
         url: `posts/${id}`,
         method: 'PATCH',
         body: data,
