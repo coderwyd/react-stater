@@ -15,8 +15,8 @@ importers:
         specifier: ^3.8.0
         version: 3.8.0(react@18.3.1)
       antd:
-        specifier: ^5.19.0
-        version: 5.19.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: ^5.19.1
+        version: 5.19.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       axios:
         specifier: ^1.7.2
         version: 1.7.2
@@ -125,8 +125,8 @@ packages:
     resolution: {integrity: sha512-30iZtAPgz+LTIYoeivqYo853f02jBYSd5uGnGpkFV0M3xOt9aN73erkgYAmZU43x4VfqcnLxW9Kpg3R5LC4YYw==}
     engines: {node: '>=6.0.0'}
 
-  '@ant-design/colors@7.0.2':
-    resolution: {integrity: sha512-7KJkhTiPiLHSu+LmMJnehfJ6242OCxSlR3xHVBecYxnMW8MS/878NXct1GqYARyL59fyeFdKRxXTfvR9SnDgJg==}
+  '@ant-design/colors@7.1.0':
+    resolution: {integrity: sha512-MMoDGWn1y9LdQJQSHiCC20x3uZ3CwQnv9QMz6pCmJOrqdgM9YxsoVVY0wtrdXbmfSgnV0KNk6zi09NAhMR2jvg==}
 
   '@ant-design/cssinjs@1.21.0':
     resolution: {integrity: sha512-gIilraPl+9EoKdYxnupxjHB/Q6IHNRjEXszKbDxZdsgv4sAZ9pjkCq8yanDWNvyfjp4leir2OVAJm0vxwKK8YA==}
@@ -1256,8 +1256,8 @@ packages:
     resolution: {integrity: sha512-bN798gFfQX+viw3R7yrGWRqnrN2oRkEkUjjl4JNn4E8GxxbjtG3FbrEIIY3l8/hrwUwIeCZvi4QuOTP4MErVug==}
     engines: {node: '>=12'}
 
-  antd@5.19.0:
-    resolution: {integrity: sha512-+w+3zJUKqwU1GSXUxnKhzSGuWUqwwpHQm/voJr2X0JBdYxr9gkLhKR0HBhQjVSSJzSb86rB48fUbByHKrN05Xg==}
+  antd@5.19.1:
+    resolution: {integrity: sha512-ogGEUPaamSZ2HFGvlyLBNfxZ0c4uX5aqEIwMtmqRTPNjcLY/k+qdMmdWrMMiY1CDJ3j1in5wjzQTvREG+do65g==}
     peerDependencies:
       react: '>=16.9.0'
       react-dom: '>=16.9.0'
@@ -3742,7 +3742,7 @@ snapshots:
       '@jridgewell/gen-mapping': 0.3.5
       '@jridgewell/trace-mapping': 0.3.25
 
-  '@ant-design/colors@7.0.2':
+  '@ant-design/colors@7.1.0':
     dependencies:
       '@ctrl/tinycolor': 3.6.1
 
@@ -3762,7 +3762,7 @@ snapshots:
 
   '@ant-design/icons@5.3.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      '@ant-design/colors': 7.0.2
+      '@ant-design/colors': 7.1.0
       '@ant-design/icons-svg': 4.4.2
       '@babel/runtime': 7.24.7
       classnames: 2.5.1
@@ -5123,9 +5123,9 @@ snapshots:
 
   ansi-styles@6.2.1: {}
 
-  antd@5.19.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+  antd@5.19.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
-      '@ant-design/colors': 7.0.2
+      '@ant-design/colors': 7.1.0
       '@ant-design/cssinjs': 1.21.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@ant-design/icons': 5.3.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@ant-design/react-slick': 1.1.2(react@18.3.1)
