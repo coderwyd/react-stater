@@ -44,7 +44,7 @@
     "eslint-plugin-react-refresh": "^0.4.9",
     "nano-staged": "^0.8.0",
     "postcss": "^8.4.40",
-    "rimraf": "^5.0.9",
+    "rimraf": "^5.0.10",
     "rollup-plugin-visualizer": "^5.12.0",
     "sass": "^1.77.8",
     "simple-git-hooks": "^2.11.1",
