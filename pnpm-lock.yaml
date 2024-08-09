@@ -52,8 +52,8 @@ importers:
         specifier: ^1.9.1
         version: 1.9.1(eslint@9.8.0)(typescript@5.5.4)
       '@types/node':
-        specifier: ^20.14.14
-        version: 20.14.14
+        specifier: ^20.14.15
+        version: 20.14.15
       '@types/react':
         specifier: ^18.3.3
         version: 18.3.3
@@ -65,7 +65,7 @@ importers:
         version: 0.61.5(eslint@9.8.0)(typescript@5.5.4)
       '@vitejs/plugin-react-swc':
         specifier: ^3.7.0
-        version: 3.7.0(vite@5.4.0(@types/node@20.14.14)(sass@1.77.8)(terser@5.16.8))
+        version: 3.7.0(vite@5.4.0(@types/node@20.14.15)(sass@1.77.8)(terser@5.16.8))
       autoprefixer:
         specifier: ^10.4.20
         version: 10.4.20(postcss@8.4.41)
@@ -101,19 +101,19 @@ importers:
         version: 5.5.4
       unocss:
         specifier: ^0.61.5
-        version: 0.61.5(postcss@8.4.41)(rollup@4.13.1)(vite@5.4.0(@types/node@20.14.14)(sass@1.77.8)(terser@5.16.8))
+        version: 0.61.5(postcss@8.4.41)(rollup@4.13.1)(vite@5.4.0(@types/node@20.14.15)(sass@1.77.8)(terser@5.16.8))
       vite:
         specifier: ^5.4.0
-        version: 5.4.0(@types/node@20.14.14)(sass@1.77.8)(terser@5.16.8)
+        version: 5.4.0(@types/node@20.14.15)(sass@1.77.8)(terser@5.16.8)
       vite-plugin-html:
         specifier: ^3.2.2
-        version: 3.2.2(vite@5.4.0(@types/node@20.14.14)(sass@1.77.8)(terser@5.16.8))
+        version: 3.2.2(vite@5.4.0(@types/node@20.14.15)(sass@1.77.8)(terser@5.16.8))
       vite-plugin-svg-icons:
         specifier: ^2.0.1
-        version: 2.0.1(vite@5.4.0(@types/node@20.14.14)(sass@1.77.8)(terser@5.16.8))
+        version: 2.0.1(vite@5.4.0(@types/node@20.14.15)(sass@1.77.8)(terser@5.16.8))
       vite-tsconfig-paths:
         specifier: ^4.3.2
-        version: 4.3.2(typescript@5.5.4)(vite@5.4.0(@types/node@20.14.14)(sass@1.77.8)(terser@5.16.8))
+        version: 4.3.2(typescript@5.5.4)(vite@5.4.0(@types/node@20.14.15)(sass@1.77.8)(terser@5.16.8))
 
 packages:
 
@@ -992,8 +992,8 @@ packages:
   '@types/json-schema@7.0.15':
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
 
-  '@types/node@20.14.14':
-    resolution: {integrity: sha512-d64f00982fS9YoOgJkAMolK7MN8Iq3TDdVjchbYHdEmjth/DHowx82GnoA+tVUAN+7vxfYUgAzi+JXbKNd2SDQ==}
+  '@types/node@20.14.15':
+    resolution: {integrity: sha512-Fz1xDMCF/B00/tYSVMlmK7hVeLh7jE5f3B7X1/hmV0MJBwE27KlS7EvD/Yp+z1lm8mVhwV5w+n8jOZG8AfTlKw==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -4868,7 +4868,7 @@ snapshots:
 
   '@types/json-schema@7.0.15': {}
 
-  '@types/node@20.14.14':
+  '@types/node@20.14.15':
     dependencies:
       undici-types: 5.26.5
 
@@ -4887,7 +4887,7 @@ snapshots:
 
   '@types/svgo@2.6.4':
     dependencies:
-      '@types/node': 20.14.14
+      '@types/node': 20.14.15
 
   '@types/use-sync-external-store@0.0.3': {}
 
@@ -5098,13 +5098,13 @@ snapshots:
       '@typescript-eslint/types': 8.0.1
       eslint-visitor-keys: 3.4.3
 
-  '@unocss/astro@0.61.5(rollup@4.13.1)(vite@5.4.0(@types/node@20.14.14)(sass@1.77.8)(terser@5.16.8))':
+  '@unocss/astro@0.61.5(rollup@4.13.1)(vite@5.4.0(@types/node@20.14.15)(sass@1.77.8)(terser@5.16.8))':
     dependencies:
       '@unocss/core': 0.61.5
       '@unocss/reset': 0.61.5
-      '@unocss/vite': 0.61.5(rollup@4.13.1)(vite@5.4.0(@types/node@20.14.14)(sass@1.77.8)(terser@5.16.8))
+      '@unocss/vite': 0.61.5(rollup@4.13.1)(vite@5.4.0(@types/node@20.14.15)(sass@1.77.8)(terser@5.16.8))
     optionalDependencies:
-      vite: 5.4.0(@types/node@20.14.14)(sass@1.77.8)(terser@5.16.8)
+      vite: 5.4.0(@types/node@20.14.15)(sass@1.77.8)(terser@5.16.8)
     transitivePeerDependencies:
       - rollup
 
@@ -5247,7 +5247,7 @@ snapshots:
     dependencies:
       '@unocss/core': 0.61.5
 
-  '@unocss/vite@0.61.5(rollup@4.13.1)(vite@5.4.0(@types/node@20.14.14)(sass@1.77.8)(terser@5.16.8))':
+  '@unocss/vite@0.61.5(rollup@4.13.1)(vite@5.4.0(@types/node@20.14.15)(sass@1.77.8)(terser@5.16.8))':
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@rollup/pluginutils': 5.1.0(rollup@4.13.1)
@@ -5259,14 +5259,14 @@ snapshots:
       chokidar: 3.6.0
       fast-glob: 3.3.2
       magic-string: 0.30.10
-      vite: 5.4.0(@types/node@20.14.14)(sass@1.77.8)(terser@5.16.8)
+      vite: 5.4.0(@types/node@20.14.15)(sass@1.77.8)(terser@5.16.8)
     transitivePeerDependencies:
       - rollup
 
-  '@vitejs/plugin-react-swc@3.7.0(vite@5.4.0(@types/node@20.14.14)(sass@1.77.8)(terser@5.16.8))':
+  '@vitejs/plugin-react-swc@3.7.0(vite@5.4.0(@types/node@20.14.15)(sass@1.77.8)(terser@5.16.8))':
     dependencies:
       '@swc/core': 1.5.7
-      vite: 5.4.0(@types/node@20.14.14)(sass@1.77.8)(terser@5.16.8)
+      vite: 5.4.0(@types/node@20.14.15)(sass@1.77.8)(terser@5.16.8)
     transitivePeerDependencies:
       - '@swc/helpers'
 
@@ -7967,9 +7967,9 @@ snapshots:
 
   universalify@2.0.0: {}
 
-  unocss@0.61.5(postcss@8.4.41)(rollup@4.13.1)(vite@5.4.0(@types/node@20.14.14)(sass@1.77.8)(terser@5.16.8)):
+  unocss@0.61.5(postcss@8.4.41)(rollup@4.13.1)(vite@5.4.0(@types/node@20.14.15)(sass@1.77.8)(terser@5.16.8)):
     dependencies:
-      '@unocss/astro': 0.61.5(rollup@4.13.1)(vite@5.4.0(@types/node@20.14.14)(sass@1.77.8)(terser@5.16.8))
+      '@unocss/astro': 0.61.5(rollup@4.13.1)(vite@5.4.0(@types/node@20.14.15)(sass@1.77.8)(terser@5.16.8))
       '@unocss/cli': 0.61.5(rollup@4.13.1)
       '@unocss/core': 0.61.5
       '@unocss/extractor-arbitrary-variants': 0.61.5
@@ -7988,9 +7988,9 @@ snapshots:
       '@unocss/transformer-compile-class': 0.61.5
       '@unocss/transformer-directives': 0.61.5
       '@unocss/transformer-variant-group': 0.61.5
-      '@unocss/vite': 0.61.5(rollup@4.13.1)(vite@5.4.0(@types/node@20.14.14)(sass@1.77.8)(terser@5.16.8))
+      '@unocss/vite': 0.61.5(rollup@4.13.1)(vite@5.4.0(@types/node@20.14.15)(sass@1.77.8)(terser@5.16.8))
     optionalDependencies:
-      vite: 5.4.0(@types/node@20.14.14)(sass@1.77.8)(terser@5.16.8)
+      vite: 5.4.0(@types/node@20.14.15)(sass@1.77.8)(terser@5.16.8)
     transitivePeerDependencies:
       - postcss
       - rollup
@@ -8040,7 +8040,7 @@ snapshots:
 
   vary@1.1.2: {}
 
-  vite-plugin-html@3.2.2(vite@5.4.0(@types/node@20.14.14)(sass@1.77.8)(terser@5.16.8)):
+  vite-plugin-html@3.2.2(vite@5.4.0(@types/node@20.14.15)(sass@1.77.8)(terser@5.16.8)):
     dependencies:
       '@rollup/pluginutils': 4.2.1
       colorette: 2.0.20
@@ -8054,9 +8054,9 @@ snapshots:
       html-minifier-terser: 6.1.0
       node-html-parser: 5.4.2
       pathe: 0.2.0
-      vite: 5.4.0(@types/node@20.14.14)(sass@1.77.8)(terser@5.16.8)
+      vite: 5.4.0(@types/node@20.14.15)(sass@1.77.8)(terser@5.16.8)
 
-  vite-plugin-svg-icons@2.0.1(vite@5.4.0(@types/node@20.14.14)(sass@1.77.8)(terser@5.16.8)):
+  vite-plugin-svg-icons@2.0.1(vite@5.4.0(@types/node@20.14.15)(sass@1.77.8)(terser@5.16.8)):
     dependencies:
       '@types/svgo': 2.6.4
       cors: 2.8.5
@@ -8066,28 +8066,28 @@ snapshots:
       pathe: 0.2.0
       svg-baker: 1.7.0
       svgo: 2.8.0
-      vite: 5.4.0(@types/node@20.14.14)(sass@1.77.8)(terser@5.16.8)
+      vite: 5.4.0(@types/node@20.14.15)(sass@1.77.8)(terser@5.16.8)
     transitivePeerDependencies:
       - supports-color
 
-  vite-tsconfig-paths@4.3.2(typescript@5.5.4)(vite@5.4.0(@types/node@20.14.14)(sass@1.77.8)(terser@5.16.8)):
+  vite-tsconfig-paths@4.3.2(typescript@5.5.4)(vite@5.4.0(@types/node@20.14.15)(sass@1.77.8)(terser@5.16.8)):
     dependencies:
       debug: 4.3.4
       globrex: 0.1.2
       tsconfck: 3.0.3(typescript@5.5.4)
     optionalDependencies:
-      vite: 5.4.0(@types/node@20.14.14)(sass@1.77.8)(terser@5.16.8)
+      vite: 5.4.0(@types/node@20.14.15)(sass@1.77.8)(terser@5.16.8)
     transitivePeerDependencies:
       - supports-color
       - typescript
 
-  vite@5.4.0(@types/node@20.14.14)(sass@1.77.8)(terser@5.16.8):
+  vite@5.4.0(@types/node@20.14.15)(sass@1.77.8)(terser@5.16.8):
     dependencies:
       esbuild: 0.21.5
       postcss: 8.4.41
       rollup: 4.13.1
     optionalDependencies:
-      '@types/node': 20.14.14
+      '@types/node': 20.14.15
       fsevents: 2.3.3
       sass: 1.77.8
       terser: 5.16.8
