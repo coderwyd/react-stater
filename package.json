@@ -39,7 +39,7 @@
     "@unocss/eslint-plugin": "^0.61.5",
     "@vitejs/plugin-react-swc": "^3.7.0",
     "autoprefixer": "^10.4.20",
-    "eslint": "^9.9.0",
+    "eslint": "^9.9.1",
     "eslint-plugin-react-hooks": "5.1.0-rc-fb9a90fa48-20240614",
     "eslint-plugin-react-refresh": "^0.4.11",
     "nano-staged": "^0.8.0",
