@@ -17,7 +17,7 @@
     "reinstall": "rimraf pnpm-lock.yaml && rimraf package.lock.json && rimraf node_modules && npm run bootstrap"
   },
   "dependencies": {
-    "@reduxjs/toolkit": "^2.2.7",
+    "@reduxjs/toolkit": "^2.2.8",
     "ahooks": "^3.8.1",
     "antd": "^5.21.2",
     "axios": "^1.7.7",
