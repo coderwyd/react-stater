@@ -46,7 +46,7 @@
     "postcss": "^8.4.47",
     "rimraf": "^5.0.10",
     "rollup-plugin-visualizer": "^5.12.0",
-    "sass": "^1.80.3",
+    "sass": "^1.80.4",
     "simple-git-hooks": "^2.11.1",
     "typescript": "^5.6.3",
     "unocss": "^0.61.5",
