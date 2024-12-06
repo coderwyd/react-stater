@@ -12,8 +12,8 @@ importers:
         specifier: ^2.4.0
         version: 2.4.0(react-redux@9.1.2(@types/react@18.3.12)(react@18.3.1)(redux@5.0.1))(react@18.3.1)
       ahooks:
-        specifier: ^3.8.1
-        version: 3.8.1(react@18.3.1)
+        specifier: ^3.8.4
+        version: 3.8.4(react@18.3.1)
       antd:
         specifier: ^5.22.3
         version: 5.22.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -339,10 +339,6 @@ packages:
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0-0
-
-  '@babel/runtime@7.24.8':
-    resolution: {integrity: sha512-5F7SDGs1T72ZczbRwbGO9lQi0NLjQxzl6i4lJxLxfW9U5UluCSyEJeniWvnhl3/euNiqQVbo8zruhsDfid0esA==}
-    engines: {node: '>=6.9.0'}
 
   '@babel/runtime@7.26.0':
     resolution: {integrity: sha512-FDSOghenHTiToteC/QRlv2q3DhPZ/oOXTBoirfWNx1Cx3TMVcGWQtMMmQcSvb/JjpNeGzx8Pq/b4fKEJuWm1sw==}
@@ -1374,8 +1370,8 @@ packages:
     engines: {node: '>=0.4.0'}
     hasBin: true
 
-  ahooks@3.8.1:
-    resolution: {integrity: sha512-JoP9+/RWO7MnI/uSKdvQ8WB10Y3oo1PjLv+4Sv4Vpm19Z86VUMdXh+RhWvMGxZZs06sq2p0xVtFk8Oh5ZObsoA==}
+  ahooks@3.8.4:
+    resolution: {integrity: sha512-39wDEw2ZHvypaT14EpMMk4AzosHWt0z9bulY0BeDsvc9PqJEV+Kjh/4TZfftSsotBMq52iYIOFPd3PR56e0ZJg==}
     engines: {node: '>=8.0.0'}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
@@ -4306,10 +4302,6 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@babel/runtime@7.24.8':
-    dependencies:
-      regenerator-runtime: 0.14.0
-
   '@babel/runtime@7.26.0':
     dependencies:
       regenerator-runtime: 0.14.0
@@ -5514,9 +5506,9 @@ snapshots:
 
   acorn@8.14.0: {}
 
-  ahooks@3.8.1(react@18.3.1):
+  ahooks@3.8.4(react@18.3.1):
     dependencies:
-      '@babel/runtime': 7.24.8
+      '@babel/runtime': 7.26.0
       dayjs: 1.11.13
       intersection-observer: 0.12.2
       js-cookie: 3.0.5
