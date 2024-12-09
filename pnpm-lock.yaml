@@ -58,8 +58,8 @@ importers:
         specifier: ^18.3.14
         version: 18.3.14
       '@types/react-dom':
-        specifier: ^18.3.2
-        version: 18.3.2
+        specifier: ^19.0.2
+        version: 19.0.2(@types/react@18.3.14)
       '@unocss/eslint-plugin':
         specifier: ^0.61.5
         version: 0.61.5(eslint@9.16.0(jiti@1.21.0))(typescript@5.7.2)
@@ -1107,8 +1107,10 @@ packages:
   '@types/prop-types@15.7.5':
     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
 
-  '@types/react-dom@18.3.2':
-    resolution: {integrity: sha512-Fqp+rcvem9wEnGr3RY8dYNvSQ8PoLqjZ9HLgaPUOjJJD120uDyOxOjc/39M4Kddp9JQCxpGQbnhVQF0C0ncYVg==}
+  '@types/react-dom@19.0.2':
+    resolution: {integrity: sha512-c1s+7TKFaDRRxr1TxccIX2u7sfCnc3RxkVyBIUA2lCpyqCF+QoAwQ/CBg7bsMdVwP120HEH143VQezKtef5nCg==}
+    peerDependencies:
+      '@types/react': ^19.0.0
 
   '@types/react@18.3.14':
     resolution: {integrity: sha512-NzahNKvjNhVjuPBQ+2G7WlxstQ+47kXZNHlUvFakDViuIEfGY926GqhMueQFZ7woG+sPiQKlF36XfrIUVSUfFg==}
@@ -5105,7 +5107,7 @@ snapshots:
 
   '@types/prop-types@15.7.5': {}
 
-  '@types/react-dom@18.3.2':
+  '@types/react-dom@19.0.2(@types/react@18.3.14)':
     dependencies:
       '@types/react': 18.3.14
 
