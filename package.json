@@ -48,7 +48,7 @@
     "rollup-plugin-visualizer": "^5.13.1",
     "sass": "^1.83.1",
     "simple-git-hooks": "^2.11.1",
-    "typescript": "^5.7.2",
+    "typescript": "^5.7.3",
     "unocss": "^0.61.5",
     "vite": "^5.4.11",
     "vite-plugin-html": "^3.2.2",
