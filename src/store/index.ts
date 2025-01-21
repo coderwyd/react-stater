@@ -1,47 +1,27 @@
-import { combineReducers, configureStore } from '@reduxjs/toolkit'
-import { setupListeners } from '@reduxjs/toolkit/query'
-import { persistReducer, persistStore } from 'redux-persist'
-import storage from 'redux-persist/lib/storage'
-import { baseApi } from '@/api/base'
-import MovieSlice from './slices/movie'
-import UserSlice from './slices/userSlice'
-import type { Action, ThunkAction } from '@reduxjs/toolkit'
+import { create } from 'zustand'
+import { persist } from 'zustand/middleware'
 
-const rootReducer = combineReducers({
-  [baseApi.reducerPath]: baseApi.reducer,
-  // custom slice
-  user: UserSlice,
-  movie: MovieSlice,
-})
-
-// redux persist
-const persistConfig = {
-  key: 'redux-state',
-  storage,
+interface CountState {
+  count: number
+  list: string[]
 }
-const persistReducerConfig = persistReducer(persistConfig, rootReducer)
 
-const store = configureStore({
-  reducer: persistReducerConfig,
-  middleware: getDefaultMiddleware => getDefaultMiddleware(),
-  devTools: import.meta.env.DEV,
-})
+interface CountAction {
+  increment: (c?: number) => void
+  decrement: () => void
+}
 
-setupListeners(store.dispatch)
-
-export const persistor = persistStore(store)
-
-export type RootState = ReturnType<typeof store.getState>
-export type AppDispatch = typeof store.dispatch
-
-// Use custom thunk function
-export type AppThunk<ReturnType = void> = ThunkAction<
-  ReturnType,
-  RootState,
-  unknown,
-  Action<string>
->
-
-export * from './hooks'
-
-export default store
+export const useCountStore = create<CountState & CountAction>()(
+  persist(
+    (set) => ({
+      count: 0,
+      list: [],
+      increment: (c: number = 1) =>
+        set((state) => ({ count: state.count + c })),
+      decrement: () => set((state) => ({ count: state.count - 1 })),
+    }),
+    {
+      name: 'movie-store',
+    },
+  ),
+)

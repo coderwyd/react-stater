@@ -1,30 +1,39 @@
+import { useQuery } from '@tanstack/react-query'
 import { Button } from 'antd'
 import { useEffect } from 'react'
-import { useDispatch, useSelector } from '@/store'
-import { getMovieData } from '@/store/slices/movie'
-import { decrement, increment } from '@/store/slices/userSlice'
+import { getMovieListApi } from './api/movie'
+import { useCountStore } from './store'
 
 function App() {
   // const [count, setCount] = useState(0)
-  const dispatch = useDispatch()
+  const { count, increment, decrement } = useCountStore()
 
-  const { count } = useSelector(state => state.user!)
-  const { list } = useSelector(state => state.movie!)
+  const { data: list } = useQuery({
+    queryKey: [],
+    queryFn: async () => {
+      const result = await getMovieListApi()
+      return result.data.list
+    },
+    initialData: [],
+  })
+
   useEffect(() => {
-    console.log('mounted')
-    dispatch(getMovieData())
-  }, [dispatch])
+    console.log('list', list)
+  }, [list])
+
   return (
     <div className="App">
-      <div style={{ margin: '10px' }}>{count}</div>
-      <div>
-        <Button type="primary" onClick={() => dispatch(decrement())}>
+      <div className="text-cyan" style={{ margin: '10px' }}>
+        {count}
+      </div>
+      <div className="flex gap-10">
+        <Button type="primary" onClick={() => decrement()}>
           -1
         </Button>
-        <Button type="primary" onClick={() => dispatch(increment())}>
+        <Button type="primary" onClick={() => increment()}>
           +1
         </Button>
-        <Button type="primary" onClick={() => dispatch(increment(5))}>
+        <Button type="primary" onClick={() => increment(5)}>
           +5
         </Button>
       </div>
@@ -32,7 +41,7 @@ function App() {
         {list.slice(0, 10).map((item) => {
           return (
             <li
-              className="mb-2 border border-dark-300 rounded-md border-solid text-red text-center w-30"
+              className="mb-2 w-30 border border-dark-300 rounded-md border-solid text-center text-red"
               key={item.tvId}
             >
               {item.name}

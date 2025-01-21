@@ -1,14 +1,21 @@
-import ReactDOM from 'react-dom/client'
-import { Provider } from 'react-redux'
-import { BrowserRouter } from 'react-router-dom'
+import { createRoot } from 'react-dom/client'
+import { TanstackQuery } from '@/components'
 import App from './App'
+import '@ant-design/v5-patch-for-react-19'
+import 'virtual:uno.css'
 
-import store from './store'
+function setupApp() {
+  // await setupRouter();
 
-ReactDOM.createRoot(document.querySelector('#root') as HTMLElement).render(
-  <Provider store={store}>
-    <BrowserRouter>
-      <App></App>
-    </BrowserRouter>
-  </Provider>,
-)
+  const rootElement = document.querySelector('#root')
+  if (!rootElement) return
+  const root = createRoot(rootElement)
+
+  root.render(
+    <TanstackQuery>
+      <App />
+    </TanstackQuery>,
+  )
+}
+
+setupApp()
