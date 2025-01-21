@@ -1,5 +1,4 @@
 import react from '@vitejs/plugin-react-swc'
-import { presetUno } from 'unocss'
 import unocss from 'unocss/vite'
 import { defineConfig } from 'vite'
 import tsconfigPaths from 'vite-tsconfig-paths'
@@ -10,15 +9,6 @@ export default defineConfig(({ command }: ConfigEnv) => {
 
   console.log(isBuild)
   return {
-    plugins: [
-      react(),
-      tsconfigPaths(),
-      unocss({
-        presets: [presetUno()],
-        shortcuts: {
-          'flex-center': 'flex justify-center items-center',
-        },
-      }),
-    ],
+    plugins: [react(), tsconfigPaths(), unocss()],
   }
 })
