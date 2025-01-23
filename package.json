@@ -33,7 +33,7 @@
     "@types/node": "^22.10.7",
     "@types/react": "^19.0.7",
     "@types/react-dom": "^19.0.3",
-    "@unocss/eslint-plugin": "^65.4.2",
+    "@unocss/eslint-plugin": "^65.4.3",
     "@vitejs/plugin-react": "^4.3.4",
     "autoprefixer": "^10.4.20",
     "babel-plugin-react-compiler": "19.0.0-beta-decd7b8-20250118",
@@ -45,7 +45,7 @@
     "sass": "^1.83.4",
     "simple-git-hooks": "^2.11.1",
     "typescript": "^5.7.3",
-    "unocss": "^65.4.2",
+    "unocss": "^65.4.3",
     "vite": "^6.0.11",
     "vite-tsconfig-paths": "^5.1.4"
   },
