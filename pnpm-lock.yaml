@@ -21,8 +21,8 @@ importers:
         specifier: ^5.24.4
         version: 5.24.4(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       axios:
-        specifier: ^1.8.3
-        version: 1.8.3
+        specifier: ^1.8.4
+        version: 1.8.4
       dayjs:
         specifier: ^1.11.13
         version: 1.11.13
@@ -1414,8 +1414,8 @@ packages:
     peerDependencies:
       postcss: ^8.1.0
 
-  axios@1.8.3:
-    resolution: {integrity: sha512-iP4DebzoNlP/YN2dpwCgb8zoCmhtkajzS48JvwmkSkXvPI3DHc7m+XYL5tGnSlJtR6nImXZmdCuN5aP8dh1d8A==}
+  axios@1.8.4:
+    resolution: {integrity: sha512-eBSYY4Y68NNlHbHBMdeDmKNtDgXWhQsJcGqzO3iLUM0GraQFSS9cVgPX5I9b3lbdFKyYoAEGAZF1DwhTaljNAw==}
 
   babel-plugin-react-compiler@19.0.0-beta-e552027-20250112:
     resolution: {integrity: sha512-pUTT0mAZ4XLewC6bvqVeX015nVRLVultcSQlkzGdC10G6YV6K2h4E7cwGlLAuLKWTj3Z08mTO9uTnPP/opUBsg==}
@@ -4580,7 +4580,7 @@ snapshots:
       postcss: 8.5.3
       postcss-value-parser: 4.2.0
 
-  axios@1.8.3:
+  axios@1.8.4:
     dependencies:
       follow-redirects: 1.15.6
       form-data: 4.0.0
