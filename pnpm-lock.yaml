@@ -18,8 +18,8 @@ importers:
         specifier: ^3.8.4
         version: 3.8.4(react@19.0.0)
       antd:
-        specifier: ^5.24.8
-        version: 5.24.8(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+        specifier: ^5.24.9
+        version: 5.24.9(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       axios:
         specifier: ^1.9.0
         version: 1.9.0
@@ -47,7 +47,7 @@ importers:
     devDependencies:
       '@ant-design/v5-patch-for-react-19':
         specifier: ^1.0.3
-        version: 1.0.3(antd@5.24.8(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+        version: 1.0.3(antd@5.24.9(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       '@coderwyd/eslint-config':
         specifier: ^4.2.0
         version: 4.2.0(@eslint-react/eslint-plugin@1.48.5(eslint@9.25.1(jiti@2.4.2))(typescript@5.8.3))(@typescript-eslint/utils@8.31.0(eslint@9.25.1(jiti@2.4.2))(typescript@5.8.3))(@unocss/eslint-plugin@66.0.0(eslint@9.25.1(jiti@2.4.2))(typescript@5.8.3))(eslint-plugin-react-compiler@19.0.0-beta-ebf51a3-20250411(eslint@9.25.1(jiti@2.4.2)))(eslint-plugin-react-hooks@5.2.0(eslint@9.25.1(jiti@2.4.2)))(eslint-plugin-react-refresh@0.4.20(eslint@9.25.1(jiti@2.4.2)))(eslint@9.25.1(jiti@2.4.2))(typescript@5.8.3)
@@ -1427,8 +1427,8 @@ packages:
     resolution: {integrity: sha512-zbB9rCJAT1rbjiVDb2hqKFHNYLxgtk8NURxZ3IZwD3F6NtxbXZQCnnSi1Lkx+IDohdPlFp222wVALIheZJQSEg==}
     engines: {node: '>=8'}
 
-  antd@5.24.8:
-    resolution: {integrity: sha512-vJcW81WSRq+ymBKTiA3NE+FddmiqTAKxdWVRZU+HnLLrRrIz896svcUxXFPa7M4mH9HqyeJ5JPOHsne4sQAC1A==}
+  antd@5.24.9:
+    resolution: {integrity: sha512-liB+Y/JwD5/KSKbK1Z1EVAbWcoWYvWJ1s97AbbT+mOdigpJQuWwH7kG8IXNEljI7onvj0DdD43TXhSRLUu9AMA==}
     peerDependencies:
       react: '>=16.9.0'
       react-dom: '>=16.9.0'
@@ -2511,8 +2511,8 @@ packages:
       react: '>=16.9.0'
       react-dom: '>=16.9.0'
 
-  rc-image@7.11.1:
-    resolution: {integrity: sha512-XuoWx4KUXg7hNy5mRTy1i8c8p3K8boWg6UajbHpDXS5AlRVucNfTi5YxTtPBTBzegxAZpvuLfh3emXFt6ybUdA==}
+  rc-image@7.12.0:
+    resolution: {integrity: sha512-cZ3HTyyckPnNnUb9/DRqduqzLfrQRyi+CdHjdqgsyDpI3Ln5UX1kXnAhPBSJj9pVRzwRFgqkN7p9b6HBDjmu/Q==}
     peerDependencies:
       react: '>=16.9.0'
       react-dom: '>=16.9.0'
@@ -2645,8 +2645,8 @@ packages:
       react: '>=16.9.0'
       react-dom: '>=16.9.0'
 
-  rc-tabs@15.6.0:
-    resolution: {integrity: sha512-SQ99Yjc9ewrJCUwoWPKq0FeGL2znWsqPhfcZgsHz1R7bkA2rMNe7CPgOiJkwppdJ98wkLhzs9vPrv21QOE1RyQ==}
+  rc-tabs@15.6.1:
+    resolution: {integrity: sha512-/HzDV1VqOsUWyuC0c6AkxVYFjvx9+rFPKZ32ejxX0Uc7QCzcEjTA9/xMgv4HemPKwzBNX8KhGVbbumDjnj92aA==}
     engines: {node: '>=8.x'}
     peerDependencies:
       react: '>=16.9.0'
@@ -3251,9 +3251,9 @@ snapshots:
       resize-observer-polyfill: 1.5.1
       throttle-debounce: 5.0.2
 
-  '@ant-design/v5-patch-for-react-19@1.0.3(antd@5.24.8(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
+  '@ant-design/v5-patch-for-react-19@1.0.3(antd@5.24.9(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
     dependencies:
-      antd: 5.24.8(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      antd: 5.24.9(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       react: 19.0.0
       react-dom: 19.0.0(react@19.0.0)
 
@@ -4642,7 +4642,7 @@ snapshots:
     dependencies:
       color-convert: 2.0.1
 
-  antd@5.24.8(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
+  antd@5.24.9(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
     dependencies:
       '@ant-design/colors': 7.2.0
       '@ant-design/cssinjs': 1.23.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
@@ -4666,7 +4666,7 @@ snapshots:
       rc-drawer: 7.2.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       rc-dropdown: 4.2.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       rc-field-form: 2.7.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
-      rc-image: 7.11.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      rc-image: 7.12.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       rc-input: 1.8.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       rc-input-number: 9.5.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       rc-mentions: 2.20.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
@@ -4684,7 +4684,7 @@ snapshots:
       rc-steps: 6.0.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       rc-switch: 4.1.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       rc-table: 7.50.4(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
-      rc-tabs: 15.6.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      rc-tabs: 15.6.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       rc-textarea: 1.10.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       rc-tooltip: 6.4.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       rc-tree: 5.13.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
@@ -5874,7 +5874,7 @@ snapshots:
       react: 19.0.0
       react-dom: 19.0.0(react@19.0.0)
 
-  rc-image@7.11.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
+  rc-image@7.12.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
     dependencies:
       '@babel/runtime': 7.26.0
       '@rc-component/portal': 1.1.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
@@ -6054,7 +6054,7 @@ snapshots:
       react: 19.0.0
       react-dom: 19.0.0(react@19.0.0)
 
-  rc-tabs@15.6.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
+  rc-tabs@15.6.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
     dependencies:
       '@babel/runtime': 7.26.0
       classnames: 2.5.1
