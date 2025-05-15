@@ -2,7 +2,7 @@
   "name": "react-starter",
   "type": "module",
   "version": "0.0.1",
-  "packageManager": "pnpm@10.10.0",
+  "packageManager": "pnpm@10.11.0",
   "author": "Donny Wang <donny526@outlook.com>",
   "scripts": {
     "dev": "vite",
