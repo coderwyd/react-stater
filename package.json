@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@tanstack/react-query": "^5.81.2",
-    "ahooks": "^3.8.5",
+    "ahooks": "^3.9.0",
     "antd": "^5.26.4",
     "axios": "^1.10.0",
     "dayjs": "^1.11.13",
