@@ -12,7 +12,7 @@ importers:
   .:
     dependencies:
       '@tanstack/react-query':
-        specifier: ^5.83.1
+        specifier: ^5.84.1
         version: 5.84.1(react@19.1.1)
       ahooks:
         specifier: ^3.9.0
@@ -55,7 +55,7 @@ importers:
         specifier: ^1.52.3
         version: 1.52.3(eslint@9.32.0(jiti@2.4.2))(ts-api-utils@2.1.0(typescript@5.8.3))(typescript@5.8.3)
       '@tanstack/react-query-devtools':
-        specifier: ^5.83.1
+        specifier: ^5.84.1
         version: 5.84.1(@tanstack/react-query@5.84.1(react@19.1.1))(react@19.1.1)
       '@types/node':
         specifier: ^22.17.0
