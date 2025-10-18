@@ -14,7 +14,7 @@
     "postinstall": "simple-git-hooks"
   },
   "dependencies": {
-    "@tanstack/react-query": "^5.90.3",
+    "@tanstack/react-query": "^5.90.5",
     "ahooks": "^3.9.5",
     "antd": "^5.27.5",
     "axios": "^1.12.2",
