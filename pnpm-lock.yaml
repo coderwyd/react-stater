@@ -71,7 +71,7 @@ importers:
         version: 66.5.3(eslint@9.37.0(jiti@2.6.0))(typescript@5.9.3)
       '@vitejs/plugin-react':
         specifier: ^4.7.0
-        version: 4.7.0(vite@6.3.6(@types/node@22.18.11)(jiti@2.6.0)(sass@1.93.2)(terser@5.16.8)(tsx@4.19.2)(yaml@2.7.0))
+        version: 4.7.0(vite@6.4.1(@types/node@22.18.11)(jiti@2.6.0)(sass@1.93.2)(terser@5.16.8)(tsx@4.19.2)(yaml@2.7.0))
       autoprefixer:
         specifier: ^10.4.21
         version: 10.4.21(postcss@8.5.3)
@@ -104,13 +104,13 @@ importers:
         version: 5.9.3
       unocss:
         specifier: ^66.5.3
-        version: 66.5.3(postcss@8.5.3)(vite@6.3.6(@types/node@22.18.11)(jiti@2.6.0)(sass@1.93.2)(terser@5.16.8)(tsx@4.19.2)(yaml@2.7.0))
+        version: 66.5.3(postcss@8.5.3)(vite@6.4.1(@types/node@22.18.11)(jiti@2.6.0)(sass@1.93.2)(terser@5.16.8)(tsx@4.19.2)(yaml@2.7.0))
       vite:
-        specifier: ^6.3.6
-        version: 6.3.6(@types/node@22.18.11)(jiti@2.6.0)(sass@1.93.2)(terser@5.16.8)(tsx@4.19.2)(yaml@2.7.0)
+        specifier: ^6.3.7
+        version: 6.4.1(@types/node@22.18.11)(jiti@2.6.0)(sass@1.93.2)(terser@5.16.8)(tsx@4.19.2)(yaml@2.7.0)
       vite-tsconfig-paths:
         specifier: ^5.1.4
-        version: 5.1.4(typescript@5.9.3)(vite@6.3.6(@types/node@22.18.11)(jiti@2.6.0)(sass@1.93.2)(terser@5.16.8)(tsx@4.19.2)(yaml@2.7.0))
+        version: 5.1.4(typescript@5.9.3)(vite@6.4.1(@types/node@22.18.11)(jiti@2.6.0)(sass@1.93.2)(terser@5.16.8)(tsx@4.19.2)(yaml@2.7.0))
 
 packages:
 
@@ -2133,14 +2133,6 @@ packages:
   fastq@1.15.0:
     resolution: {integrity: sha512-wBrocU2LCXXa+lWBt8RoIRD89Fi8OdABODa/kEnyeyjS5aZO5/GNvI5sEINADqP/h8M29UHTHUb53sUu5Ihqdw==}
 
-  fdir@6.4.4:
-    resolution: {integrity: sha512-1NZP+GK4GfuAv3PqKvxQRDMjdSRZjnkq7KfhlNrCNNlZ0ygQFpebfrnfnq/W7fpUnAv9aGWmY1zKx7FYL3gwhg==}
-    peerDependencies:
-      picomatch: ^3 || ^4
-    peerDependenciesMeta:
-      picomatch:
-        optional: true
-
   fdir@6.5.0:
     resolution: {integrity: sha512-tIbYtZbucOs0BRGqPJkshJUYdL+SDH7dVM8gjy+ERp3WAUjLEFJE+02kanyHtwjWOnwrKYBiwAmM0p4kLJAnXg==}
     engines: {node: '>=12.0.0'}
@@ -2318,6 +2310,7 @@ packages:
 
   intersection-observer@0.12.2:
     resolution: {integrity: sha512-7m1vEcPCxXYI8HqnL8CKI6siDyD+eIWSwgB3DZA+ZTogxk9I4CDnj4wilt9x/+/QbHI4YG5YZNmC6458/e9Ktg==}
+    deprecated: The Intersection Observer polyfill is no longer needed and can safely be removed. Intersection Observer has been Baseline since 2019.
 
   is-binary-path@2.1.0:
     resolution: {integrity: sha512-ZMERYes6pDydyuGidse7OsHxtbI7WVeUEozgR/g7rd0xUimYNlvZRE/K2MgZTjWy725IfelLeVcEM97mmtRGXw==}
@@ -3132,10 +3125,6 @@ packages:
   tinyexec@1.0.1:
     resolution: {integrity: sha512-5uC6DDlmeqiOwCPmK9jMSdOuZTh8bU39Ys6yidB+UTt5hfZUPGAypSgFRiEp+jbi9qH40BLDvy85jIU88wKSqw==}
 
-  tinyglobby@0.2.14:
-    resolution: {integrity: sha512-tX5e7OM1HnYr2+a2C/4V0htOcSQcoSTH9KgJnVvNm5zm/cyEWKJ7j7YutsH9CxMdtOkkLFy2AHrMci9IM8IPZQ==}
-    engines: {node: '>=12.0.0'}
-
   tinyglobby@0.2.15:
     resolution: {integrity: sha512-j2Zq4NyQYG5XMST4cbs02Ak8iJUdxRM0XI5QyxXuZOzKOINmWurp3smXu3y5wDcJrptwpSjgXHzIQxR0omXljQ==}
     engines: {node: '>=12.0.0'}
@@ -3257,8 +3246,8 @@ packages:
       vite:
         optional: true
 
-  vite@6.3.6:
-    resolution: {integrity: sha512-0msEVHJEScQbhkbVTb/4iHZdJ6SXp/AvxL2sjwYQFfBqleHtnCqv1J3sa9zbWz/6kW1m9Tfzn92vW+kZ1WV6QA==}
+  vite@6.4.1:
+    resolution: {integrity: sha512-+Oxm7q9hDoLMyJOYfUYBuHQo+dkAloi33apOPP56pzj+vsdJDzr+j1NISE5pyaAuKL4A3UD34qd0lx5+kfKp2g==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
     peerDependencies:
@@ -4686,13 +4675,13 @@ snapshots:
       '@typescript-eslint/types': 8.46.0
       eslint-visitor-keys: 4.2.1
 
-  '@unocss/astro@66.5.3(vite@6.3.6(@types/node@22.18.11)(jiti@2.6.0)(sass@1.93.2)(terser@5.16.8)(tsx@4.19.2)(yaml@2.7.0))':
+  '@unocss/astro@66.5.3(vite@6.4.1(@types/node@22.18.11)(jiti@2.6.0)(sass@1.93.2)(terser@5.16.8)(tsx@4.19.2)(yaml@2.7.0))':
     dependencies:
       '@unocss/core': 66.5.3
       '@unocss/reset': 66.5.3
-      '@unocss/vite': 66.5.3(vite@6.3.6(@types/node@22.18.11)(jiti@2.6.0)(sass@1.93.2)(terser@5.16.8)(tsx@4.19.2)(yaml@2.7.0))
+      '@unocss/vite': 66.5.3(vite@6.4.1(@types/node@22.18.11)(jiti@2.6.0)(sass@1.93.2)(terser@5.16.8)(tsx@4.19.2)(yaml@2.7.0))
     optionalDependencies:
-      vite: 6.3.6(@types/node@22.18.11)(jiti@2.6.0)(sass@1.93.2)(terser@5.16.8)(tsx@4.19.2)(yaml@2.7.0)
+      vite: 6.4.1(@types/node@22.18.11)(jiti@2.6.0)(sass@1.93.2)(terser@5.16.8)(tsx@4.19.2)(yaml@2.7.0)
 
   '@unocss/cli@66.5.3':
     dependencies:
@@ -4835,7 +4824,7 @@ snapshots:
     dependencies:
       '@unocss/core': 66.5.3
 
-  '@unocss/vite@66.5.3(vite@6.3.6(@types/node@22.18.11)(jiti@2.6.0)(sass@1.93.2)(terser@5.16.8)(tsx@4.19.2)(yaml@2.7.0))':
+  '@unocss/vite@66.5.3(vite@6.4.1(@types/node@22.18.11)(jiti@2.6.0)(sass@1.93.2)(terser@5.16.8)(tsx@4.19.2)(yaml@2.7.0))':
     dependencies:
       '@jridgewell/remapping': 2.3.5
       '@unocss/config': 66.5.3
@@ -4846,7 +4835,7 @@ snapshots:
       pathe: 2.0.3
       tinyglobby: 0.2.15
       unplugin-utils: 0.3.0
-      vite: 6.3.6(@types/node@22.18.11)(jiti@2.6.0)(sass@1.93.2)(terser@5.16.8)(tsx@4.19.2)(yaml@2.7.0)
+      vite: 6.4.1(@types/node@22.18.11)(jiti@2.6.0)(sass@1.93.2)(terser@5.16.8)(tsx@4.19.2)(yaml@2.7.0)
 
   '@unrs/rspack-resolver-binding-darwin-arm64@1.2.2':
     optional: true
@@ -4883,7 +4872,7 @@ snapshots:
   '@unrs/rspack-resolver-binding-win32-x64-msvc@1.2.2':
     optional: true
 
-  '@vitejs/plugin-react@4.7.0(vite@6.3.6(@types/node@22.18.11)(jiti@2.6.0)(sass@1.93.2)(terser@5.16.8)(tsx@4.19.2)(yaml@2.7.0))':
+  '@vitejs/plugin-react@4.7.0(vite@6.4.1(@types/node@22.18.11)(jiti@2.6.0)(sass@1.93.2)(terser@5.16.8)(tsx@4.19.2)(yaml@2.7.0))':
     dependencies:
       '@babel/core': 7.28.0
       '@babel/plugin-transform-react-jsx-self': 7.27.1(@babel/core@7.28.0)
@@ -4891,7 +4880,7 @@ snapshots:
       '@rolldown/pluginutils': 1.0.0-beta.27
       '@types/babel__core': 7.20.5
       react-refresh: 0.17.0
-      vite: 6.3.6(@types/node@22.18.11)(jiti@2.6.0)(sass@1.93.2)(terser@5.16.8)(tsx@4.19.2)(yaml@2.7.0)
+      vite: 6.4.1(@types/node@22.18.11)(jiti@2.6.0)(sass@1.93.2)(terser@5.16.8)(tsx@4.19.2)(yaml@2.7.0)
     transitivePeerDependencies:
       - supports-color
 
@@ -5748,10 +5737,6 @@ snapshots:
   fastq@1.15.0:
     dependencies:
       reusify: 1.0.4
-
-  fdir@6.4.4(picomatch@4.0.2):
-    optionalDependencies:
-      picomatch: 4.0.2
 
   fdir@6.5.0(picomatch@4.0.3):
     optionalDependencies:
@@ -6761,11 +6746,6 @@ snapshots:
 
   tinyexec@1.0.1: {}
 
-  tinyglobby@0.2.14:
-    dependencies:
-      fdir: 6.4.4(picomatch@4.0.2)
-      picomatch: 4.0.2
-
   tinyglobby@0.2.15:
     dependencies:
       fdir: 6.5.0(picomatch@4.0.3)
@@ -6789,7 +6769,7 @@ snapshots:
 
   ts-declaration-location@1.0.7(typescript@5.9.3):
     dependencies:
-      picomatch: 4.0.2
+      picomatch: 4.0.3
       typescript: 5.9.3
 
   ts-pattern@5.8.0: {}
@@ -6831,9 +6811,9 @@ snapshots:
 
   unicorn-magic@0.1.0: {}
 
-  unocss@66.5.3(postcss@8.5.3)(vite@6.3.6(@types/node@22.18.11)(jiti@2.6.0)(sass@1.93.2)(terser@5.16.8)(tsx@4.19.2)(yaml@2.7.0)):
+  unocss@66.5.3(postcss@8.5.3)(vite@6.4.1(@types/node@22.18.11)(jiti@2.6.0)(sass@1.93.2)(terser@5.16.8)(tsx@4.19.2)(yaml@2.7.0)):
     dependencies:
-      '@unocss/astro': 66.5.3(vite@6.3.6(@types/node@22.18.11)(jiti@2.6.0)(sass@1.93.2)(terser@5.16.8)(tsx@4.19.2)(yaml@2.7.0))
+      '@unocss/astro': 66.5.3(vite@6.4.1(@types/node@22.18.11)(jiti@2.6.0)(sass@1.93.2)(terser@5.16.8)(tsx@4.19.2)(yaml@2.7.0))
       '@unocss/cli': 66.5.3
       '@unocss/core': 66.5.3
       '@unocss/postcss': 66.5.3(postcss@8.5.3)
@@ -6851,9 +6831,9 @@ snapshots:
       '@unocss/transformer-compile-class': 66.5.3
       '@unocss/transformer-directives': 66.5.3
       '@unocss/transformer-variant-group': 66.5.3
-      '@unocss/vite': 66.5.3(vite@6.3.6(@types/node@22.18.11)(jiti@2.6.0)(sass@1.93.2)(terser@5.16.8)(tsx@4.19.2)(yaml@2.7.0))
+      '@unocss/vite': 66.5.3(vite@6.4.1(@types/node@22.18.11)(jiti@2.6.0)(sass@1.93.2)(terser@5.16.8)(tsx@4.19.2)(yaml@2.7.0))
     optionalDependencies:
-      vite: 6.3.6(@types/node@22.18.11)(jiti@2.6.0)(sass@1.93.2)(terser@5.16.8)(tsx@4.19.2)(yaml@2.7.0)
+      vite: 6.4.1(@types/node@22.18.11)(jiti@2.6.0)(sass@1.93.2)(terser@5.16.8)(tsx@4.19.2)(yaml@2.7.0)
     transitivePeerDependencies:
       - postcss
       - supports-color
@@ -6880,25 +6860,25 @@ snapshots:
       spdx-correct: 3.2.0
       spdx-expression-parse: 3.0.1
 
-  vite-tsconfig-paths@5.1.4(typescript@5.9.3)(vite@6.3.6(@types/node@22.18.11)(jiti@2.6.0)(sass@1.93.2)(terser@5.16.8)(tsx@4.19.2)(yaml@2.7.0)):
+  vite-tsconfig-paths@5.1.4(typescript@5.9.3)(vite@6.4.1(@types/node@22.18.11)(jiti@2.6.0)(sass@1.93.2)(terser@5.16.8)(tsx@4.19.2)(yaml@2.7.0)):
     dependencies:
       debug: 4.3.4
       globrex: 0.1.2
       tsconfck: 3.0.3(typescript@5.9.3)
     optionalDependencies:
-      vite: 6.3.6(@types/node@22.18.11)(jiti@2.6.0)(sass@1.93.2)(terser@5.16.8)(tsx@4.19.2)(yaml@2.7.0)
+      vite: 6.4.1(@types/node@22.18.11)(jiti@2.6.0)(sass@1.93.2)(terser@5.16.8)(tsx@4.19.2)(yaml@2.7.0)
     transitivePeerDependencies:
       - supports-color
       - typescript
 
-  vite@6.3.6(@types/node@22.18.11)(jiti@2.6.0)(sass@1.93.2)(terser@5.16.8)(tsx@4.19.2)(yaml@2.7.0):
+  vite@6.4.1(@types/node@22.18.11)(jiti@2.6.0)(sass@1.93.2)(terser@5.16.8)(tsx@4.19.2)(yaml@2.7.0):
     dependencies:
       esbuild: 0.25.1
-      fdir: 6.4.4(picomatch@4.0.2)
-      picomatch: 4.0.2
+      fdir: 6.5.0(picomatch@4.0.3)
+      picomatch: 4.0.3
       postcss: 8.5.3
       rollup: 4.40.0
-      tinyglobby: 0.2.14
+      tinyglobby: 0.2.15
     optionalDependencies:
       '@types/node': 22.18.11
       fsevents: 2.3.3
