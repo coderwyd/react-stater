@@ -35,7 +35,7 @@
     "@types/react": "^19.2.7",
     "@types/react-dom": "^19.2.3",
     "@unocss/eslint-plugin": "^66.5.9",
-    "@vitejs/plugin-react": "^4.7.0",
+    "@vitejs/plugin-react": "^5.1.1",
     "autoprefixer": "^10.4.22",
     "babel-plugin-react-compiler": "19.0.0-beta-ebf51a3-20250411",
     "eslint": "^9.39.1",
