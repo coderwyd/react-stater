@@ -30,8 +30,8 @@ importers:
         specifier: ^5.6.0
         version: 5.6.0
       immer:
-        specifier: ^10.2.0
-        version: 10.2.0
+        specifier: ^11.1.18
+        version: 11.1.18
       react:
         specifier: ^19.2.8
         version: 19.2.8
@@ -43,7 +43,7 @@ importers:
         version: 7.18.2(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
       zustand:
         specifier: ^5.0.9
-        version: 5.0.9(@types/react@19.2.18)(immer@10.2.0)(react@19.2.8)
+        version: 5.0.9(@types/react@19.2.18)(immer@11.1.18)(react@19.2.8)
     devDependencies:
       '@ant-design/v5-patch-for-react-19':
         specifier: ^1.0.3
@@ -2220,6 +2220,7 @@ packages:
   eslint@9.39.1:
     resolution: {integrity: sha512-BhHmn2yNOFA9H9JmmIVKJmd288g9hrVRDkdoIgRCRuSySRUHH7r/DI6aAXW9T1WwUuY3DFgrcaqB+deURBLR5g==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+    deprecated: This version is no longer supported. Please see https://eslint.org/version-support for other options.
     hasBin: true
     peerDependencies:
       jiti: '*'
@@ -2430,8 +2431,8 @@ packages:
     resolution: {integrity: sha512-hsBTNUqQTDwkWtcdYI2i06Y/nUBEsNEDJKjWdigLvegy8kDuJAS8uRlpkkcQpyEXL0Z/pjDy5HBmMjRCJ2gq+g==}
     engines: {node: '>= 4'}
 
-  immer@10.2.0:
-    resolution: {integrity: sha512-d/+XTN3zfODyjr89gM3mPq1WNX2B8pYsu7eORitdwyA2sBubnTl3laYlBk4sXY5FUa5qTZGBDPJICVbvqzjlbw==}
+  immer@11.1.18:
+    resolution: {integrity: sha512-EQyQtLiYW029lyoczMl/Hh4Xu7cDecSc58JRYpHyL4tIAu3eqd1yJzQX04d2BZHDkzFFvm6qJEJWOtfDSWAXbQ==}
 
   immutable@5.1.9:
     resolution: {integrity: sha512-m8nVez3rwrgmWxtLMt1ZYXB2Lv7OKYn/disyxAlSDYAlKSlFoPPfIAmAM/M5xqL4m4C/wAPw7S2/CNaUii1Hxg==}
@@ -6123,7 +6124,7 @@ snapshots:
 
   ignore@5.3.2: {}
 
-  immer@10.2.0: {}
+  immer@11.1.18: {}
 
   immutable@5.1.9: {}
 
@@ -7275,8 +7276,8 @@ snapshots:
     dependencies:
       tslib: 2.3.0
 
-  zustand@5.0.9(@types/react@19.2.18)(immer@10.2.0)(react@19.2.8):
+  zustand@5.0.9(@types/react@19.2.18)(immer@11.1.18)(react@19.2.8):
     optionalDependencies:
       '@types/react': 19.2.18
-      immer: 10.2.0
+      immer: 11.1.18
       react: 19.2.8
