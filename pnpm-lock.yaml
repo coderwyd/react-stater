@@ -71,7 +71,7 @@ importers:
         version: 66.7.5(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3)
       '@vitejs/plugin-react':
         specifier: ^4.7.0
-        version: 4.7.0(vite@6.4.1(@types/node@22.20.1)(jiti@2.6.1)(sass@1.102.0)(terser@5.16.8)(tsx@4.19.2)(yaml@2.7.0))
+        version: 4.7.0(vite@6.4.3(@types/node@22.20.1)(jiti@2.6.1)(sass@1.102.0)(terser@5.16.8)(tsx@4.19.2)(yaml@2.7.0))
       autoprefixer:
         specifier: ^10.4.22
         version: 10.4.22(postcss@8.5.3)
@@ -104,13 +104,13 @@ importers:
         version: 5.9.3
       unocss:
         specifier: ^66.5.12
-        version: 66.7.5(vite@6.4.1(@types/node@22.20.1)(jiti@2.6.1)(sass@1.102.0)(terser@5.16.8)(tsx@4.19.2)(yaml@2.7.0))
+        version: 66.7.5(vite@6.4.3(@types/node@22.20.1)(jiti@2.6.1)(sass@1.102.0)(terser@5.16.8)(tsx@4.19.2)(yaml@2.7.0))
       vite:
-        specifier: ^6.4.1
-        version: 6.4.1(@types/node@22.20.1)(jiti@2.6.1)(sass@1.102.0)(terser@5.16.8)(tsx@4.19.2)(yaml@2.7.0)
+        specifier: ^6.4.3
+        version: 6.4.3(@types/node@22.20.1)(jiti@2.6.1)(sass@1.102.0)(terser@5.16.8)(tsx@4.19.2)(yaml@2.7.0)
       vite-tsconfig-paths:
         specifier: ^5.1.4
-        version: 5.1.4(typescript@5.9.3)(vite@6.4.1(@types/node@22.20.1)(jiti@2.6.1)(sass@1.102.0)(terser@5.16.8)(tsx@4.19.2)(yaml@2.7.0))
+        version: 5.1.4(typescript@5.9.3)(vite@6.4.3(@types/node@22.20.1)(jiti@2.6.1)(sass@1.102.0)(terser@5.16.8)(tsx@4.19.2)(yaml@2.7.0))
 
 packages:
 
@@ -2740,10 +2740,6 @@ packages:
     resolution: {integrity: sha512-M7BAV6Rlcy5u+m6oPhAPFgJTzAioX/6B0DxyvDlo9l8+T3nLKbrczg2WLUyzd45L8RqfUMyGPzekbMvX2Ldkwg==}
     engines: {node: '>=12'}
 
-  picomatch@4.0.3:
-    resolution: {integrity: sha512-5gTmgEY/sqK6gFXLIsQNH19lWb4ebPDLA4SdLP7dsWkIXHWlG66oPuVvXSGFPppYZz8ZDZq0dYYrbHfBCVUb1Q==}
-    engines: {node: '>=12'}
-
   picomatch@4.0.5:
     resolution: {integrity: sha512-RvwwcruNjI1ncT5xRakeyS9Lf8lcItv34KD+aif+VH9kduAyfYBipGh12274xtenIPZ119/R9BdTBa8gAwSh0A==}
     engines: {node: '>=12'}
@@ -3276,10 +3272,6 @@ packages:
   tinyexec@1.0.1:
     resolution: {integrity: sha512-5uC6DDlmeqiOwCPmK9jMSdOuZTh8bU39Ys6yidB+UTt5hfZUPGAypSgFRiEp+jbi9qH40BLDvy85jIU88wKSqw==}
 
-  tinyglobby@0.2.15:
-    resolution: {integrity: sha512-j2Zq4NyQYG5XMST4cbs02Ak8iJUdxRM0XI5QyxXuZOzKOINmWurp3smXu3y5wDcJrptwpSjgXHzIQxR0omXljQ==}
-    engines: {node: '>=12.0.0'}
-
   tinyglobby@0.2.17:
     resolution: {integrity: sha512-wXR/dYpcqKmfWpEdZjiKJOwCNFndD0DMnrW/cYjVGttEkBfVgcLFHoNrlj47mjOVic9yyNu65alsgF4NQyTa2g==}
     engines: {node: '>=12.0.0'}
@@ -3429,8 +3421,8 @@ packages:
       vite:
         optional: true
 
-  vite@6.4.1:
-    resolution: {integrity: sha512-+Oxm7q9hDoLMyJOYfUYBuHQo+dkAloi33apOPP56pzj+vsdJDzr+j1NISE5pyaAuKL4A3UD34qd0lx5+kfKp2g==}
+  vite@6.4.3:
+    resolution: {integrity: sha512-NTKlcQjlAK7MlQoyb6LgaqHc8sso/pVyUJYWMws3jg21uTJw/LddqIFPcPqP6PzpgbIcZyKI85sFE4HBrQDA8A==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
     peerDependencies:
@@ -4877,7 +4869,7 @@ snapshots:
       debug: 4.4.3
       minimatch: 10.2.6
       semver: 7.8.5
-      tinyglobby: 0.2.15
+      tinyglobby: 0.2.17
       ts-api-utils: 2.5.0(typescript@5.9.3)
       typescript: 5.9.3
     transitivePeerDependencies:
@@ -5060,7 +5052,7 @@ snapshots:
     dependencies:
       '@unocss/core': 66.7.5
 
-  '@unocss/vite@66.7.5(vite@6.4.1(@types/node@22.20.1)(jiti@2.6.1)(sass@1.102.0)(terser@5.16.8)(tsx@4.19.2)(yaml@2.7.0))':
+  '@unocss/vite@66.7.5(vite@6.4.3(@types/node@22.20.1)(jiti@2.6.1)(sass@1.102.0)(terser@5.16.8)(tsx@4.19.2)(yaml@2.7.0))':
     dependencies:
       '@jridgewell/remapping': 2.3.5
       '@unocss/config': 66.7.5
@@ -5071,7 +5063,7 @@ snapshots:
       pathe: 2.0.3
       tinyglobby: 0.2.17
       unplugin-utils: 0.3.1
-      vite: 6.4.1(@types/node@22.20.1)(jiti@2.6.1)(sass@1.102.0)(terser@5.16.8)(tsx@4.19.2)(yaml@2.7.0)
+      vite: 6.4.3(@types/node@22.20.1)(jiti@2.6.1)(sass@1.102.0)(terser@5.16.8)(tsx@4.19.2)(yaml@2.7.0)
 
   '@unrs/rspack-resolver-binding-darwin-arm64@1.2.2':
     optional: true
@@ -5108,7 +5100,7 @@ snapshots:
   '@unrs/rspack-resolver-binding-win32-x64-msvc@1.2.2':
     optional: true
 
-  '@vitejs/plugin-react@4.7.0(vite@6.4.1(@types/node@22.20.1)(jiti@2.6.1)(sass@1.102.0)(terser@5.16.8)(tsx@4.19.2)(yaml@2.7.0))':
+  '@vitejs/plugin-react@4.7.0(vite@6.4.3(@types/node@22.20.1)(jiti@2.6.1)(sass@1.102.0)(terser@5.16.8)(tsx@4.19.2)(yaml@2.7.0))':
     dependencies:
       '@babel/core': 7.28.0
       '@babel/plugin-transform-react-jsx-self': 7.27.1(@babel/core@7.28.0)
@@ -5116,7 +5108,7 @@ snapshots:
       '@rolldown/pluginutils': 1.0.0-beta.27
       '@types/babel__core': 7.20.5
       react-refresh: 0.17.0
-      vite: 6.4.1(@types/node@22.20.1)(jiti@2.6.1)(sass@1.102.0)(terser@5.16.8)(tsx@4.19.2)(yaml@2.7.0)
+      vite: 6.4.3(@types/node@22.20.1)(jiti@2.6.1)(sass@1.102.0)(terser@5.16.8)(tsx@4.19.2)(yaml@2.7.0)
     transitivePeerDependencies:
       - supports-color
 
@@ -5982,10 +5974,6 @@ snapshots:
     dependencies:
       reusify: 1.0.4
 
-  fdir@6.5.0(picomatch@4.0.3):
-    optionalDependencies:
-      picomatch: 4.0.3
-
   fdir@6.5.0(picomatch@4.0.5):
     optionalDependencies:
       picomatch: 4.0.5
@@ -6407,8 +6395,6 @@ snapshots:
   picomatch@2.3.1: {}
 
   picomatch@4.0.2: {}
-
-  picomatch@4.0.3: {}
 
   picomatch@4.0.5: {}
 
@@ -7030,11 +7016,6 @@ snapshots:
 
   tinyexec@1.0.1: {}
 
-  tinyglobby@0.2.15:
-    dependencies:
-      fdir: 6.5.0(picomatch@4.0.3)
-      picomatch: 4.0.3
-
   tinyglobby@0.2.17:
     dependencies:
       fdir: 6.5.0(picomatch@4.0.5)
@@ -7062,7 +7043,7 @@ snapshots:
 
   ts-declaration-location@1.0.7(typescript@5.9.3):
     dependencies:
-      picomatch: 4.0.3
+      picomatch: 4.0.5
       typescript: 5.9.3
 
   ts-pattern@5.8.0: {}
@@ -7114,7 +7095,7 @@ snapshots:
 
   unicorn-magic@0.1.0: {}
 
-  unocss@66.7.5(vite@6.4.1(@types/node@22.20.1)(jiti@2.6.1)(sass@1.102.0)(terser@5.16.8)(tsx@4.19.2)(yaml@2.7.0)):
+  unocss@66.7.5(vite@6.4.3(@types/node@22.20.1)(jiti@2.6.1)(sass@1.102.0)(terser@5.16.8)(tsx@4.19.2)(yaml@2.7.0)):
     dependencies:
       '@unocss/cli': 66.7.5
       '@unocss/core': 66.7.5
@@ -7132,20 +7113,20 @@ snapshots:
       '@unocss/transformer-compile-class': 66.7.5
       '@unocss/transformer-directives': 66.7.5
       '@unocss/transformer-variant-group': 66.7.5
-      '@unocss/vite': 66.7.5(vite@6.4.1(@types/node@22.20.1)(jiti@2.6.1)(sass@1.102.0)(terser@5.16.8)(tsx@4.19.2)(yaml@2.7.0))
+      '@unocss/vite': 66.7.5(vite@6.4.3(@types/node@22.20.1)(jiti@2.6.1)(sass@1.102.0)(terser@5.16.8)(tsx@4.19.2)(yaml@2.7.0))
     transitivePeerDependencies:
       - vite
 
   unplugin-utils@0.3.1:
     dependencies:
       pathe: 2.0.3
-      picomatch: 4.0.3
+      picomatch: 4.0.5
 
   unplugin@2.3.11:
     dependencies:
       '@jridgewell/remapping': 2.3.5
       acorn: 8.15.0
-      picomatch: 4.0.3
+      picomatch: 4.0.5
       webpack-virtual-modules: 0.6.2
 
   update-browserslist-db@1.1.2(browserslist@4.24.4):
@@ -7171,25 +7152,25 @@ snapshots:
       spdx-correct: 3.2.0
       spdx-expression-parse: 3.0.1
 
-  vite-tsconfig-paths@5.1.4(typescript@5.9.3)(vite@6.4.1(@types/node@22.20.1)(jiti@2.6.1)(sass@1.102.0)(terser@5.16.8)(tsx@4.19.2)(yaml@2.7.0)):
+  vite-tsconfig-paths@5.1.4(typescript@5.9.3)(vite@6.4.3(@types/node@22.20.1)(jiti@2.6.1)(sass@1.102.0)(terser@5.16.8)(tsx@4.19.2)(yaml@2.7.0)):
     dependencies:
       debug: 4.3.4
       globrex: 0.1.2
       tsconfck: 3.0.3(typescript@5.9.3)
     optionalDependencies:
-      vite: 6.4.1(@types/node@22.20.1)(jiti@2.6.1)(sass@1.102.0)(terser@5.16.8)(tsx@4.19.2)(yaml@2.7.0)
+      vite: 6.4.3(@types/node@22.20.1)(jiti@2.6.1)(sass@1.102.0)(terser@5.16.8)(tsx@4.19.2)(yaml@2.7.0)
     transitivePeerDependencies:
       - supports-color
       - typescript
 
-  vite@6.4.1(@types/node@22.20.1)(jiti@2.6.1)(sass@1.102.0)(terser@5.16.8)(tsx@4.19.2)(yaml@2.7.0):
+  vite@6.4.3(@types/node@22.20.1)(jiti@2.6.1)(sass@1.102.0)(terser@5.16.8)(tsx@4.19.2)(yaml@2.7.0):
     dependencies:
       esbuild: 0.25.1
-      fdir: 6.5.0(picomatch@4.0.3)
-      picomatch: 4.0.3
+      fdir: 6.5.0(picomatch@4.0.5)
+      picomatch: 4.0.5
       postcss: 8.5.3
       rollup: 4.40.0
-      tinyglobby: 0.2.15
+      tinyglobby: 0.2.17
     optionalDependencies:
       '@types/node': 22.20.1
       fsevents: 2.3.3
