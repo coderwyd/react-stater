@@ -24,7 +24,7 @@
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
     "react-router": "^7.18.2",
-    "zustand": "^5.0.9"
+    "zustand": "^5.0.15"
   },
   "devDependencies": {
     "@ant-design/v5-patch-for-react-19": "^1.0.3",

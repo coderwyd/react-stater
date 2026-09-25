@@ -42,8 +42,8 @@ importers:
         specifier: ^7.18.2
         version: 7.18.2(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
       zustand:
-        specifier: ^5.0.9
-        version: 5.0.9(@types/react@19.2.18)(immer@10.2.0)(react@19.2.8)
+        specifier: ^5.0.15
+        version: 5.0.15(@types/react@19.2.18)(immer@10.2.0)(react@19.2.8)
     devDependencies:
       '@ant-design/v5-patch-for-react-19':
         specifier: ^1.0.3
@@ -3525,8 +3525,8 @@ packages:
   zrender@5.6.1:
     resolution: {integrity: sha512-OFXkDJKcrlx5su2XbzJvj/34Q3m6PvyCZkVPHGYpcCJ52ek4U/ymZyfuV1nKE23AyBJ51E/6Yr0mhZ7xGTO4ag==}
 
-  zustand@5.0.9:
-    resolution: {integrity: sha512-ALBtUj0AfjJt3uNRQoL1tL2tMvj6Gp/6e39dnfT6uzpelGru8v1tPOGBzayOWbPJvujM8JojDk3E1LxeFisBNg==}
+  zustand@5.0.15:
+    resolution: {integrity: sha512-MpSEjRiBkA9crSYeOUH32rJC7SVqAbm0Fqcqge/bUi2PPoLcBWKOsG+C8mevmpr8TwXHBVkChbbJiyvkE+i/3A==}
     engines: {node: '>=12.20.0'}
     peerDependencies:
       '@types/react': '>=18.0.0'
@@ -7251,7 +7251,7 @@ snapshots:
     dependencies:
       tslib: 2.3.0
 
-  zustand@5.0.9(@types/react@19.2.18)(immer@10.2.0)(react@19.2.8):
+  zustand@5.0.15(@types/react@19.2.18)(immer@10.2.0)(react@19.2.8):
     optionalDependencies:
       '@types/react': 19.2.18
       immer: 10.2.0
