@@ -45,7 +45,7 @@
     "nano-staged": "^0.9.0",
     "sass": "^1.105.1",
     "simple-git-hooks": "^2.14.0",
-    "typescript": "^5.9.3",
+    "typescript": "^7.0.2",
     "unocss": "^66.10.5",
     "vite": "^6.4.3",
     "vite-tsconfig-paths": "^5.1.4"
